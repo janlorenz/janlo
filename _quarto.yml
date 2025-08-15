@@ -17,6 +17,8 @@ website:
       - constructor-labs.qmd
       - blog.qmd
 
+execute:
+  freeze: auto
 
 format:
   html:
@@ -26,3 +28,6 @@ format:
 
 bibliography: references/references.bib
 csl: references/apa-cv.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
