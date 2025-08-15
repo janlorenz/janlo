@@ -3,4 +3,4 @@ title: "CV"
 format: html
 ---
 
-[CV](cv/cv.pdf)
+{{< pdf cv/cv.pdf >}}
