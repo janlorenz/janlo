@@ -8,16 +8,58 @@ categories:
 
 I submitted for habilitation in **Computational Social Science** at Jacobs University Bremen with a cumulative habilitation work on
 
-## [Systemic Effects in Models of Opinion Dynamics, Societal Growth, and the Wisdom of Crowds](https://drive.google.com/open?id=0B6RUj58gkTakUXJOV3NXXzZqTGs)
+[Systemic Effects in Models of Opinion Dynamics, Societal Growth, and the Wisdom of Crowds](https://drive.google.com/open?id=0B6RUj58gkTakUXJOV3NXXzZqTGs)
 
 This (click the title above for download) is an 88 page booklet presenting the results of twelve published papers focusing on systemic effects in opinion dynamics and societal growth and on the wisdom of crowd phenomenon in group guesstimation games. Read a short summary with a focus on the new results here. <!--more-->
 
-**Chapter 1: Introduction** This chapter outlines what systemic effects are and how they can be studied through agent-based modeling, referring to these two publications: \[bibtex file=lorenz\_pubs.bib format=ieee template=my-bibtex key=Lorenz2012ZurMethodeder,Groeber.Lorenz.ea2014Dissonanceminimizationas\]
+## Chapter 1: Introduction
 
-**Chapter 2: Opinion Dynamics** This chapter presents four different models of opinion dynamics, which are the result of theory- or data-driven modeling attempts. The evolving opinion landscapes (= distribution of opinions, represented by histograms) can be plotted on the vertical axis against the core parameter of the model on the horizontal axis. This delivers an **opinion pattern diagram** where the coloring represents the frequency of agents' opinions in that region of the \[core parameter\] x opinion space. The opinion landscapes are the one which appear after stabilization. See the four opinion pattern diagrams here: \[bibtex file=lorenz\_pubs.bib format=ieee template=my-bibtex key=Shin.Lorenz2010TippingDiffusivityin\] \[pdf-embedder url="http://janlo.de/wp/wp-content/uploads/2017/01/ODP-tipping-1.pdf"\] Opinion pattern diagram for increasing number of links (diffusivity) under a constant ratio of intra-vs-inter-community links. A phase of coexistence of different ideological camps appears with increasing diffusivity. \[bibtex file=lorenz\_pubs.bib format=ieee template=my-bibtex key=Metz.Lorenz2013Becomewhoyou\] \[pdf-embedder url="http://janlo.de/wp/wp-content/uploads/2017/02/OPD-partyID-1.pdf"\] Opinion pattern diagram for the self-reinforcment model for the strength of party attachments (= number of yearly announced party attachments over 10 years) with respect to the parameter "Interest in politics". \[bibtex file=lorenz\_pubs.bib format=ieee template=my-bibtex key=Lorenz2009Universalityofmovie\] \[pdf-embedder url="http://janlo.de/wp/wp-content/uploads/2017/02/ODP-ratings-1.pdf"\] Opinion pattern diagram for 1-10 star movie rating histograms with respect to movie quality according to a one-parameter fit based on data from [IMDb.com](http://imdb.com). \[bibtex file=lorenz\_pubs.bib format=ieee template=my-bibtex key=Lorenz2015ModelingEvolutionIdeological\] \[pdf-embedder url="http://janlo.de/wp/wp-content/uploads/2017/02/OPD-boundedconfidence-1.pdf"\] Opinion pattern diagram for the bounded confidence model with random opinion replacement with respect to the homogeneous bound of confidence $latex \\varepsilon$. m=0.1 means 1 out of 10 agents draw a new opinion at random, while 9 out of ten rely on social interaction under bounded confidence). Notice that the consensus transition ($latex \\varepsilon\\approx 0.27$) is sharp, while the transition between two- and three-cluster regimes ($latex \\varepsilon\\approx 0.18$) is smooth.
+This chapter outlines what systemic effects are and how they can be studied through agent-based modeling, referring to these two publications: 
 
-**Chapter 3: Societal Growth** This chapter presents the following three papers and concludes with a short discussion on systemic growth effects. \[bibtex file=lorenz\_pubs.bib format=ieee template=my-bibtex key=Koenig.Lorenz.ea2016Innovationvsimitation,Lorenz.Paetzel.ea2013Redistributionspursgrowth,Lorenz.Paetzel.ea2017JustDontCall\]
+- @Lorenz2012ZurMethodeAgentenbasierten
+- @GroeberEtAl2014DissonanceMinimizationMicrofoundation
 
-**Chapter 4: The Wisdom of the Crowd** Besides presenting the results of three papers, this chapter presents a thorough discussion and definition of the wisdom of crowd in group guesstimation tasks (Sec. 4.2). It presents and analyzes three datasets (Sec. 4.1), from which one is the data set from Galton's famous 1907 paper, while the other twoare collected by my. The later ones were only treated in this blog before. Take a look at the histograms and how different measures of aggregation perform: \[pdf-embedder url="http://janlo.de/wp/wp-content/uploads/2017/02/Galton-Data-1.pdf"\] \[pdf-embedder url="http://janlo.de/wp/wp-content/uploads/2017/02/Viertelfest-Hist-1.pdf"\] \[pdf-embedder url="http://janlo.de/wp/wp-content/uploads/2017/02/OL-Plot-1.pdf"\] The chapter also presents a new concept to relate systematic bias to the expected fraction of "ad hoc" experts in a crowd (Sec. 4.5) and how this transforms to a measure for optimal crowd size. Finally, the concept of diversity sampling is presented (also Sec. 4.5) which shows the doubleedge that it improves the correctness of aggregate estimates for small crowds for the arithmetic mean, while it reduces it for the median. The papers presented are: \[bibtex file=lorenz\_pubs.bib format=ieee template=my-bibtex key=Rauhut.Lorenz2010wisdomofcrowds,Lorenz.Rauhut.ea2011HowSocialInfluence,Lorenz.Rauhut.ea2015MajoritarianDemocracyUndermines\]
+## Chapter 2: Opinion Dynamics
 
-Source file for the submitted version including R-code are here \[bibtex file=lorenz\_pubs.bib format=ieee template=my-bibtex key=Lorenz2017Sourcefilesand\]
+This chapter presents four different models of opinion dynamics, which are the result of theory- or data-driven modeling attempts. The evolving opinion landscapes (= distribution of opinions, represented by histograms) can be plotted on the vertical axis against the core parameter of the model on the horizontal axis. This delivers an **opinion pattern diagram** where the coloring represents the frequency of agents' opinions in that region of the \[core parameter\] x opinion space. The opinion landscapes are the one which appear after stabilization. See the four opinion pattern diagrams here: 
+
+![Opinion pattern diagram for increasing number of links (diffusivity) under a constant ratio of intra-vs-inter-community links. A phase of coexistence of different ideological camps appears with increasing diffusivity. Reference: @ShinLorenz2010TippingDiffusivityInformation](figs/odp1.png)
+
+![Opinion pattern diagram for the self-reinforcment model for the strength of party attachments (= number of yearly announced party attachments over 10 years) with respect to the parameter "Interest in politics". Reference: @MetzLorenz2013BecomeWhoYou](figs/odp2.png) 
+
+![Opinion pattern diagram for 1-10 star movie rating histograms with respect to movie quality according to a one-parameter fit based on data from [IMDb.com](http://imdb.com). Reference: @Lorenz2009UniversalityMovieRating](figs/odp3.png)
+
+![Opinion pattern diagram for the bounded confidence model with random opinion replacement with respect to the homogeneous bound of confidence $\varepsilon$. $m=0.1$ means 1 out of 10 agents draw a new opinion at random, while 9 out of ten rely on social interaction under bounded confidence). Notice that the consensus transition ($\varepsilon\approx 0.27$) is sharp, while the transition between two- and three-cluster regimes ($\varepsilon\approx 0.18$) is smooth.](figs/odp4.png)
+
+Additionally discussed paper:
+
+- @Lorenz2017ModelingEvolutionIdeological
+
+## Chapter 3: Societal Growth
+
+This chapter presents the following three papers and concludes with a short discussion on systemic growth effects. 
+
+- @KonigEtAl2016InnovationVsImitation
+- @LorenzEtAl2013RedistributionSpursGrowth
+- @LorenzEtAl2017JustDontCall
+
+## Chapter 4: The Wisdom of the Crowd
+
+Besides presenting the results of three papers, this chapter presents a thorough discussion and definition of the wisdom of crowd in group guesstimation tasks (Sec. 4.2). It presents and analyzes three datasets (Sec. 4.1), from which one is the data set from Galton's famous 1907 paper, while the other twoare collected by my. The later ones were only treated in this blog before. Take a look at the histograms and how different measures of aggregation perform: 
+
+![](figs/woc1.png)
+
+![](figs/woc2.png)
+
+![](figs/woc3.png)
+
+The chapter also presents a new concept to relate systematic bias to the expected fraction of "ad hoc" experts in a crowd (Sec. 4.5) and how this transforms to a measure for optimal crowd size. Finally, the concept of diversity sampling is presented (also Sec. 4.5) which shows the doubleedge that it improves the correctness of aggregate estimates for small crowds for the arithmetic mean, while it reduces it for the median. The papers presented are: 
+
+- @RauhutLorenz2010WisdomCrowdsOne
+- @LorenzEtAl2011HowSocialInfluence
+
+
+
+## Source files
+
+Source files for the submitted version including R code are at [GitHub: janlorenz/habil](https://github.com/janlorenz/habil).
