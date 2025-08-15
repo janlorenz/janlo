@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2019-02-16">
+
+<title>Wie gehen Volksabstimmungen mit drei Optionen? – Jan Lorenz</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-44bb8dc7b28dfb45df03172c12b54166.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Jan Lorenz</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../scientific-events.html"> 
+<span class="menu-text">Scientific Events</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../constructor-labs.html"> 
+<span class="menu-text">Constructor Labs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#bebauung-des-galopprennbahngeländes-in-bremen" id="toc-bebauung-des-galopprennbahngeländes-in-bremen" class="nav-link active" data-scroll-target="#bebauung-des-galopprennbahngeländes-in-bremen"><strong>Bebauung des Galopprennbahngeländes in Bremen</strong></a></li>
+  <li><a href="#wie-kann-über-3-optionen-abgestimmt-werden" id="toc-wie-kann-über-3-optionen-abgestimmt-werden" class="nav-link" data-scroll-target="#wie-kann-über-3-optionen-abgestimmt-werden">Wie kann über 3 Optionen abgestimmt werden?</a>
+  <ul class="collapse">
+  <li><a href="#einfache-mehrheit-ein-minderheitssieg-ist-möglich" id="toc-einfache-mehrheit-ein-minderheitssieg-ist-möglich" class="nav-link" data-scroll-target="#einfache-mehrheit-ein-minderheitssieg-ist-möglich"><strong>Einfache Mehrheit … ❌ Ein Minderheitssieg ist möglich</strong></a></li>
+  <li><a href="#integrierte-stichwahl-kompromiss-kann-vorzeitig-rausfliegen" id="toc-integrierte-stichwahl-kompromiss-kann-vorzeitig-rausfliegen" class="nav-link" data-scroll-target="#integrierte-stichwahl-kompromiss-kann-vorzeitig-rausfliegen">(Integrierte) Stichwahl … <strong>❌</strong>Kompromiss kann vorzeitig rausfliegen</a></li>
+  <li><a href="#rangordnungen-sind-generell-problematisch" id="toc-rangordnungen-sind-generell-problematisch" class="nav-link" data-scroll-target="#rangordnungen-sind-generell-problematisch">Rangordnungen sind generell problematisch <strong>❌</strong></a></li>
+  <li><a href="#wahl-durch-zustimmung-mit-status-quo" id="toc-wahl-durch-zustimmung-mit-status-quo" class="nav-link" data-scroll-target="#wahl-durch-zustimmung-mit-status-quo">Wahl durch Zustimmung mit Status Quo <strong>❓</strong></a></li>
+  </ul></li>
+  <li><a href="#zustimmung-mit-stichfrage" id="toc-zustimmung-mit-stichfrage" class="nav-link" data-scroll-target="#zustimmung-mit-stichfrage">Zustimmung mit Stichfrage! <strong>✅</strong></a>
+  <ul class="collapse">
+  <li><a href="#kann-man-strategisch-abstimmen" id="toc-kann-man-strategisch-abstimmen" class="nav-link" data-scroll-target="#kann-man-strategisch-abstimmen">Kann man strategisch abstimmen?</a></li>
+  </ul></li>
+  <li><a href="#fazit" id="toc-fazit" class="nav-link" data-scroll-target="#fazit">Fazit <strong>👍</strong></a>
+  <ul class="collapse">
+  <li><a href="#erläuterung-für-theoretisch-interessierte" id="toc-erläuterung-für-theoretisch-interessierte" class="nav-link" data-scroll-target="#erläuterung-für-theoretisch-interessierte">Erläuterung für theoretisch Interessierte</a></li>
+  <li><a href="#anmerkungen" id="toc-anmerkungen" class="nav-link" data-scroll-target="#anmerkungen">Anmerkungen</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Wie gehen Volksabstimmungen mit drei Optionen?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">deutsch</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 16, 2019</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>In Deutschland gibt es bisher kaum Erfahrung mit Volksabstimmungen in denen es mehr als zwei Optionen zum gleichen Sachverhalt gibt. Viele Gesetze zur Volksgesetzgebung lassen aber genau das zu. Ein typisches Szenario ist, dass das Parlament einen Gegenvorschlag (oder, positiver formuliert, eine Kompromissvorschlag) zu einem per Volksbegehren entstandenen Vorschlag dazufügt. Ich erläutere an einem aktuellen Beispiels aus Bremen, wie die Abstimmung dann funktioniert. Das Verfahren zeigt, dass repräsentative und direkte Demokratie sinnvoll verzahnt sind und dass direktdemokratische Prozesse sinnvolle und komplexe gesellschaftlichen Kompromisbildungsprozesse auf diese Weise eher ermöglichen als zur Polarisierung beizutragen.</p>
+<!--more-->
+<section id="bebauung-des-galopprennbahngeländes-in-bremen" class="level2">
+<h2 class="anchored" data-anchor-id="bebauung-des-galopprennbahngeländes-in-bremen"><strong>Bebauung des Galopprennbahngeländes in Bremen</strong></h2>
+<p>Die <a href="https://www.bi-rennbahngelaende-bremen.de">Bürgerinitiative Rennbahngelände Bremen</a> hat ein Volksbegehren erfolgreich abgeschlossen, in dem die Bebauung des Geländes per Ortsgesetz ausgeschlossen wird. Volksbegehren heißt, dass das Stadtparlament (indem es eine rot-grüne Mehrheit gibt) nun über das Ortsgesetz beschließen muss. Falls sie es ablehnt, kann die Bürgerinitiative einen Volksentscheid darüber erzwingen. Das Parlament hat aber auch die Möglichkeit einen weiteren Vorschlag für den Volksentscheid vorzuschlagen (siehe <a href="https://www.transparenz.bremen.de/sixcms/detail.php?gsid=bremen2014_tp.c.70539.de&amp;template=20_gp_ifg_meta_detail_d">Gesetz über das Verfahren beim Volksentscheid</a> §1 und §3). Die Grünen hatten einen Kompromiss (hälftige Bebauung) ins Gespräch gebracht. Ihr Koalitionspartner SPD hat sie allerdings davon abgebracht. Eine Mehrheit im Parlament ohne Koalitionszwang hätte einen weiteren Vorschlag dem Volksentscheid vorlegen können. Es hätten dann drei Optionen gegeben:</p>
+<ol type="1">
+<li><strong>Gesetzentwurf der Bürgerinitiative</strong> (Wohnbebauung wird ausgeschlossen)</li>
+<li><strong>Hälftige Bebauung</strong> (potentieller Vorschlag aus dem Parlament, Wohnbebauung wird eingeschränkt)</li>
+<li><strong>Status Quo</strong> (Regelung der Bebauung durch Verfahren ohne Volksentscheid)</li>
+</ol>
+</section>
+<section id="wie-kann-über-3-optionen-abgestimmt-werden" class="level2">
+<h2 class="anchored" data-anchor-id="wie-kann-über-3-optionen-abgestimmt-werden">Wie kann über 3 Optionen abgestimmt werden?</h2>
+<p>Es gibt viele Möglichkeiten wie über drei Optionen abgestimmt werden kann.</p>
+<section id="einfache-mehrheit-ein-minderheitssieg-ist-möglich" class="level3">
+<h3 class="anchored" data-anchor-id="einfache-mehrheit-ein-minderheitssieg-ist-möglich"><strong>Einfache Mehrheit … ❌ Ein Minderheitssieg ist möglich</strong></h3>
+<p>Eine Wahl mit einer Stimme, wie bei der Erststimme im Bundestagswahlkreis, ist nicht geeignet. Dann kann es sein, dass die Option, die die meisten Stimmen hat trotzdem von einer Mehrheit abgelehnt wird und eine Mehrheit soll hinter der Entscheidung stehen, genauso wie es im Parlament erforderlich ist.</p>
+</section>
+<section id="integrierte-stichwahl-kompromiss-kann-vorzeitig-rausfliegen" class="level3">
+<h3 class="anchored" data-anchor-id="integrierte-stichwahl-kompromiss-kann-vorzeitig-rausfliegen">(Integrierte) Stichwahl … <strong>❌</strong>Kompromiss kann vorzeitig rausfliegen</h3>
+<p>Um eine Mehrheit für den Sieger sicherzustellen, wird zum Beispiel bei Bürgermeisterwahlen oft eine zweite Runde mit einer Stichwahl der beiden besten Optionen aus der ersten Runde angehängt. Das kann auch integriert in einem Wahlgang gemacht werden, wenn auf dem Stimmzettel eine Rangfolge der drei Optionen angegeben werden kann. In der ersten Auszählung wird nur auf die erste Präferenz geschaut. Gibt es dort keinen Sieger mit einer Mehrheit, dann fliegt die Option mit den wenigsten Stimmen raus und die Stimmzettel auf denen die rausgeflogene Option auf Platz eins ist werden nach ihrer zweiten Präferenz neu zugeordnet. So gewinnt auf jedenfall eine Option mit einer Mehrheit, auch wenn es natürlich bei einem Teil der Abstimmenden nur das kleinere Übel ist. Auch diese Methode ist aber nicht unbedingt geeignet. Ist eine Option klar als Kompromiss zu erkennen, gleichzeitig die Gesellschaft in dieser Frage stark zwischen den beiden anderen Optionen polarisiert, dann fliegt die Kompromiss-Option in der ersten Runde raus, obwohl sie klar von beiden Seiten als das kleiner Über gesehen wird. Alle am Ende Unterlegenen können sich dann besonders ärgern nicht gleich für den Kompromiss gestimmt zu haben.</p>
+</section>
+<section id="rangordnungen-sind-generell-problematisch" class="level3">
+<h3 class="anchored" data-anchor-id="rangordnungen-sind-generell-problematisch">Rangordnungen sind generell problematisch <strong>❌</strong></h3>
+<p>Bei drei Optionen ist es für viele Menschen natürlich, eine Rangordnung zu bilden. Es gibt aber ein generelles Problem, wenn auf den Stimmzetteln Rangordnungen stehen. Das kann man am besten am Beispiel erläutern: Die Rangordnung <strong>1/2/3</strong> steht für eine Person, die die Bürgerinitiative am besten findet, ansonsten aber die hälftige Bebauung immer noch besser als den Status Quo. Die Rangordnung <strong>2/3/1</strong> findet die hälftige Bebauung am besten, aber den Status Quo noch besser als die Bürgerinitiative. <strong>3/1/2</strong> ist für den Status Quo, lehnt aber die hälftige Bebauung ab, sondern will dann lieber, die Bürgerinitiative. Das ist vielleicht nicht für jeden nachvollziehbar, aber es gibt solche Positionen [1]. Gehen wir davon aus, dass jeweils ein Drittel der Abstimmenden eine dieser drei Positionen unterstützt. Natürlich gibt es noch 3/2/1, 1/3/2 und 2/1/3 aber die vernachlässigen wir hier, um das <a href="https://de.wikipedia.org/wiki/Condorcet-Paradoxon">Condorcet-Paradox</a> der zyklischen Mehrheiten zu erläutern. In unserem Beispiel sieht es jetzt nämlich so aus: zwei Drittel finden den Status Quo besser als die Bürgerinitiative, zwei Drittel finden aber die hälftige Bebauung besser als den Status Quo, aber wiederum finden zwei Drittel die Bürgerinitiative besser als die hälftige Bebauung. So geht es im Kreis weiter: Es gibt immer eine Mehrheit die etwas anderes besser finden. Wie bei <a href="https://de.wikipedia.org/wiki/Schere,_Stein,_Papier">Schere-Stein-Papier</a> gibt es keine klar beste Option. Eine solche ungünstige Situation muss es nicht immer geben. Es ist zum Beispiel gut möglich, dass in der Bremer Bevölkerung der Kompromiss der hälftigen Bebauung eine Mehrheit gegen den Status Quo bekommen würde und auch gegen die Bürgerinitiative. In diesem Fall wäre es dann egal, wie der Status Quo gegen die Bürgerinitiative abschneidet. In einem solchen Fall nennt man die Option die gegen alle anderen Optionen eine Mehrheit gewinnt den <a href="https://de.wikipedia.org/wiki/Condorcet-Methode#Condorcet-Sieger">Condorcet-Sieger</a>&nbsp;[2]. Da es aber nicht immer einen Condorcet-Sieger gibt, braucht man eine andere Methode, die immer eine Entscheidung bestimmt.</p>
+</section>
+<section id="wahl-durch-zustimmung-mit-status-quo" class="level3">
+<h3 class="anchored" data-anchor-id="wahl-durch-zustimmung-mit-status-quo">Wahl durch Zustimmung mit Status Quo <strong>❓</strong></h3>
+<p>Eine andere Philosophie als Rangordnungen liegt der <a href="https://de.wikipedia.org/wiki/Wahl_durch_Zustimmung">Wahl durch Zustimmung</a> zugrunde. Jede Abstimmende kann ihre Zustimmung oder Ablehnung zu jeder Option ausdrücken. Gewonnen hat die Option, die die meiste Zustimmung erhält. Hier zeigt sich schon ein Unterschied von Volksabstimmungen zu Personenwahlen. Ein Option ist bei Volksentscheiden (im Gegensatz zu Wahlen) der Status Quo. Ihn bräuchte man gar nicht wählen, bzw. er bleibt, wenn nichts Neues gewählt wird. In unserem Beispiel braucht man eigentlich also nur die beiden Optionen 1 und 2 jeweils mit der Möglichkeit für “Ja” und “Nein” auf dem Stimmzettel. Genauso würde auch der erste Teil des Stimmzettels in Bremen nach <a href="https://www.transparenz.bremen.de/sixcms/detail.php?gsid=bremen2014_tp.c.70539.de&amp;template=20_gp_ifg_meta_detail_d">Gesetz über das Verfahren beim Volksentscheid</a> §3 (4) aussehen.</p>
+<p>Bei Volksabstimmungen soll eine Änderung des Status Quo (analog zum Parlamentsgesetzgebungsverfahren) von einer Mehrheit unterstützt werden. Zusätzlich zur meisten Zustimmung sollte also der Gewinner auch mindestens 50% Ja-Stimmen erhalten. Der Sieger wäre nach den Grundsätzen der Wahl durch Zustimmung die Option mit den meisten Ja-Stimmen, wenn sie auch eine Mehrheit repräsentieren, ansonsten der Status Quo (Option 3 in unserem Beispiel).</p>
+</section>
+</section>
+<section id="zustimmung-mit-stichfrage" class="level2">
+<h2 class="anchored" data-anchor-id="zustimmung-mit-stichfrage">Zustimmung mit Stichfrage! <strong>✅</strong></h2>
+<p>Auf dem Stimmzettel ist aber nach <a href="https://www.transparenz.bremen.de/sixcms/detail.php?gsid=bremen2014_tp.c.70539.de&amp;template=20_gp_ifg_meta_detail_d">Gesetz über das Verfahren beim Volksentscheid</a> §3 (4) zusätzlich zu den zwei Ja-Nein-Entscheidungen noch eine Stichfrage vorgesehen in der man ausdrücken kann welchen der Gesetzentwürfe man vorzieht für den Fall, dass beide Gesetzentwürfe jeweils die erforderliche Zustimmung erreichen. Schaffen es beide Optionen jeweils eine Mehrheit an Zustimmung zu erhalten, dann gewinnt nicht die mit den meisten Ja-Stimmen, sondern die, die die meisten Stimmen bei der Stichfrage erhält (<a href="https://www.transparenz.bremen.de/sixcms/detail.php?gsid=bremen2014_tp.c.70539.de&amp;template=20_gp_ifg_meta_detail_d">Gesetz über das Verfahren beim Volksentscheid</a> §6). Die Anzahl der Ja- und Nein-Stimmen wird in diesem Verfahren nur bei einem Gleichstand in der Stichfrage berücksichtigt. Auf dem Stimmzettel stehen für die abstimmende Person also drei Fragen:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Stimmzettel</strong></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ziehen Sie <strong>Option 1</strong> dem Status Quo vor?</td>
+<td><strong>□ Ja</strong></td>
+<td><strong>□ Nein</strong></td>
+</tr>
+<tr class="even">
+<td>Ziehen Sie <strong>Option 2</strong> dem Status Quo vor?</td>
+<td><strong>□ Ja</strong></td>
+<td><strong>□ Nein</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Stichfrage:</strong> Welche Option ziehen sie vor, falls beide eine Mehrheit bekommen?</td>
+<td><strong>□ 1</strong></td>
+<td><strong>□ 2</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Warum gibt es die Stichfrage anstatt einfach die Option mit der meisten Zustimmung zum Sieger zu erklären? Um auch den Vertretern das Status Quo eine Stimme zu geben! Wer beide Optionen für schlechter als den Status Quo hält hat wahrscheinlich trotzdem eine Meinung welche der beiden Optionen er für das kleinere Übel hält.</p>
+<section id="kann-man-strategisch-abstimmen" class="level3">
+<h3 class="anchored" data-anchor-id="kann-man-strategisch-abstimmen">Kann man strategisch abstimmen?</h3>
+<p>Strategisch wählen heißt, dass man den Stimmzettel anders ausfüllt als es den eigenen Präferenzen entspricht weil man aufgrund von Annahmen über die Abstimmungen der anderen ein für sich besseres Ergebnis erhofft. Das <a href="https://de.wikipedia.org/wiki/Gibbard-Satterthwaite-Theorem">Gibbard-Satterthwaite-Theorem</a> sagt, dass strategisches Wählen grundsätzlich immer möglich sein kann, wenn mehr als zwei Optionen zur Wahl stehen. Ein klassisches Beispiel bei der Bundestagswahl ist, der Verzicht auf das Wählen einer Kleinpartei, die einem eigentlich am besten gefällt, aus der Erwartung, dass diese Stimme dann durch die 5%-Sperrklausel verfällt.</p>
+<p>Wie könnte strategisches Wählen beim Volksentscheid mit drei Optionen aussehen? Ein Beispiel: Als Befürworterin von Option 1, die Option 2 aber immer noch dem Status Quo vorziehen würde, müsste man eigentlich für beide Optionen mit “Ja” stimmen und bei der Stichfrage mit “1”. Wenn aber erwartet werden kann, dass es vielleicht für beide Optionen knapp wird, eine Mehrheit zu bekommen und gleichzeitig sicher ist, dass Option 2 in der Stichwahl vorne liegt, dann könnte man aus strategischen Gründen bei Option 2 mit “Nein” Stimmen. Dadurch erhöht man die Chance, dass es Option 2 nicht über 50% schafft, und sichert damit den Sieg von 1, da 1 ja bei der Stichfrage sicher gegen 2 verlieren wird. Dafür muss es aber 1 schaffen. Es ist daher ein Risiko! Denn wenn 1 es auch nicht schafft, dann hat man gar nichts, nichtmal 2, was eigentlich das kleinere Übel wäre.</p>
+</section>
+</section>
+<section id="fazit" class="level2">
+<h2 class="anchored" data-anchor-id="fazit">Fazit <strong>👍</strong></h2>
+<p>Ein absolut transparentes und nachvollziehbares Verfahren. Es ist zwar strategisches Wählen möglich, aber die Anreize sind verhältnismäßig klein. Kompromissentscheidungen im Zusammenspiel von direkter und repräsentativer Demokratie sind also möglich.</p>
+<section id="erläuterung-für-theoretisch-interessierte" class="level3">
+<h3 class="anchored" data-anchor-id="erläuterung-für-theoretisch-interessierte">Erläuterung für theoretisch Interessierte</h3>
+<p>Bei der Mehrheitswahl durch Zustimmung mit zwei Optionen, Status Quo und Stichfrage gibt es insgesamt 2^3 = 8 Möglichkeiten den Stimmzettel auszufüllen. Bei drei Optionen gibt es aber nur 3! = 6 mögliche Rangordnungen. Die Beschreibung der Beispiele in diesem Beitrag legt aber nahe, dass es möglich ist, aus jeder Rangordnung ein Abstimmungsverhalten für den Volksentscheid abzuleiten. Wie ist das aber umgekehrt, da es ja mehr als sechs Möglichkeiten gibt, den Stimmzettel auszufüllen. Die folgende Tabelle gibt die Antwort.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Option A</th>
+<th>Option B</th>
+<th>Stichfrage</th>
+<th>Rangordnung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ja</td>
+<td>Ja</td>
+<td>A</td>
+<td>A &gt; B &gt; Status Quo</td>
+</tr>
+<tr class="even">
+<td>Ja</td>
+<td>Ja</td>
+<td>B</td>
+<td>B &gt; A &gt; Status Quo</td>
+</tr>
+<tr class="odd">
+<td>Ja</td>
+<td>Nein</td>
+<td>A</td>
+<td>A &gt; Status Quo &gt; B</td>
+</tr>
+<tr class="even">
+<td>Ja</td>
+<td>Nein</td>
+<td>B</td>
+<td>inkonsistent!</td>
+</tr>
+<tr class="odd">
+<td>Nein</td>
+<td>Ja</td>
+<td>B</td>
+<td>B &gt; Status Quo &gt; A</td>
+</tr>
+<tr class="even">
+<td>Nein</td>
+<td>Ja</td>
+<td>A</td>
+<td>inkonsistent!</td>
+</tr>
+<tr class="odd">
+<td>Nein</td>
+<td>Nein</td>
+<td>A</td>
+<td>Status Quo &gt; A &gt; B</td>
+</tr>
+<tr class="even">
+<td>Nein</td>
+<td>Nein</td>
+<td>B</td>
+<td>Status Quo &gt; B &gt; A</td>
+</tr>
+</tbody>
+</table>
+<p>Zwei Möglichkeiten, den Stimmzettel auszufüllen, sind ziemlich unlogisch. Wer eine Option ablehnt, die andere aber möchte, sollte in der Stichfrage eigentlich nicht diejenige Option ankreuzen, die er ablehnt! Verboten ist das aber nicht.</p>
+</section>
+<section id="anmerkungen" class="level3">
+<h3 class="anchored" data-anchor-id="anmerkungen">Anmerkungen</h3>
+<p>[1] Die drei Optionen könnten zum Beispiel drei Einkommenssteuersysteme sein, bei denen sich keiner als natürlicher Kompromissvorschlag identifizieren lässt.<br>
+(A) Viele Vorteile für Geringverdienende, einige Vorteile für mittlere Einkommen, keine für Gutverdienende.<br>
+(B) Viele Vorteile für mittlere Einkommen, einige Vorteile für Gutverdienende, keine für Geringverdienende.<br>
+(C) Viele Vorteile für Gutverdienende, einige Vorteile für Geringverdienende, keine für mittlere Einkommen.<br>
+[2] Das Beispiel bei der integrierten Stichwahl, zeigt, dass die integrierte Stichwahl nicht immer den Condorcet Sieger zum Sieger macht. Der Condorcet-Sieger ist in diesem Fall der Kompromiss.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.janlo\.de");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
