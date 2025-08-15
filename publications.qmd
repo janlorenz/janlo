@@ -73,8 +73,8 @@ See my
 ## Theses
 
 1. **Habilitation** (Computational Social Science): @Lorenz2017SystemicEffectsModels   
-2. **Dissertation** (Mathematics): @Lorenz2003MehrdimensionaleMeinungsdynamikBei  
-3. **Diploma thesis** (Mathematics): @Lorenz2007RepeatedAveragingBoundeda
+2. **Dissertation** (Mathematics): @Lorenz2007RepeatedAveragingBounded
+3. **Diploma thesis** (Mathematics): @Lorenz2003MehrdimensionaleMeinungsdynamikBei  
 
 ## Preprints / Self-archived
 
