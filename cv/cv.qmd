@@ -123,6 +123,7 @@ sidebar:
           time: "10/2006 - 07/2012"
           details: "Thesis: Modularity Maximization"
 execute: 
+  freeze: true
   echo: false
 suppress-bibliography: true 
 ---
