@@ -3,4 +3,4 @@ title: "CV"
 format: html
 ---
 
-{{< pdf cv/cv.pdf >}}
+{{< pdf cv/cv.pdf width=100% height=800 >}}
