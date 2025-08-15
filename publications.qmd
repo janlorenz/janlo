@@ -1,0 +1,88 @@
+---
+title: "Publications"
+bibliography: references/references.bib
+csl: references/apa-cv.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+---
+
+See my   
+[Google Scholar profile by recent years](https://scholar.google.com/citations?hl=en&user=NxoGpCgAAAAJ&view_op=list_works&sortby=pubdate) or   
+[Google Scholar profile by impact](https://scholar.google.com/citations?user=NxoGpCgAAAAJ&hl=en).
+
+## Journal Articles
+
+1. @GestefeldLorenz2023CalibratingOpinionDynamics
+2. @ZuccottiEtAl2023ExploringDynamicsNeighbourhood
+3. @GestefeldEtAl2022DecomposingAttitudeDistributions
+4. @TepeEtAl2021EfficiencyLossSupport
+5. @FilipLorenz2021AnalysisLinkIndividual
+6. @LorenzEtAl2021IndividualAttitudeChange
+7. @GeschkeEtAl2019TriplefilterBubbleUsing
+8. @DelheyEtAl2018SocialCohesionIts
+9. @Lorenz2018WieKumuliermoglichkeitPanaschieren
+10. @LorenzNeumann2018OpinionDynamicsCollective
+11. @PaolilloLorenz2018HowDifferentHomophily
+12. @FlacheEtAl2017ModelsSocialInfluence
+13. @PaetzelEtAl2017TransparencyDiminishesFramingeffects
+14. @LorenzEtAl2017RankOptimalWeightingHow
+15. @LorenzEtAl2017JustDontCall
+16. @Kurahashi-NakamuraEtAl2016RobustClusteringGeneralized
+17. @LorenzEtAl2016ContinuousOpinionDynamicsNetLogoRobustClustering
+18. @KonigEtAl2016InnovationVsImitation
+19. @LorenzEtAl2015MajoritarianDemocracyUndermines
+20. @GroeberEtAl2014DissonanceMinimizationMicrofoundation
+21. @LorenzEtAl2013RedistributionSpursGrowth
+22. @RauhutEtAl2011ReplyFarrellImproved
+23. @LorenzEtAl2011HowSocialInfluence
+24. @RauhutLorenz2010WisdomCrowdsOne
+25. @LorenzLorenz2010ConditionsConvergenceConsensus
+26. @ShinLorenz2010TippingDiffusivityInformation
+27. @Lorenz2010HeterogeneousBoundsConfidence
+28. @LorenzEtAl2009SystemicRiskUnifying
+29. @Lorenz2009UniversalityMovieRating
+30. @LorenzBattiston2008SystemicRiskNetwork
+31. @UrbigEtAl2008OpinionDynamicsEffect
+32. @Lorenz2007ContinuousOpinionDynamics
+33. @LorenzUrbig2007PowerEnforcePrevent
+34. @Lorenz2006ConsensusStrikesBack
+35. @Lorenz2006ContinuousOpinionDynamics
+36. @Lorenz2005StabilizationTheoremDynamics
+
+## Book Chapters
+
+1. @Lorenz2025ExploringTheoryAgentbased
+2. @Lorenz2021DatadrivenAgentbasedModeling
+3. @NeumannLorenz2018AgentenbasierteSimulationPolitikwissenschaft
+4. @Lorenz2012ZurMethodeAgentenbasierten
+5. @AsgharpourmasoulehEtAl2020FateProtestsDynamics
+6. @DeutschmannEtAl2020AdvancingConflictResearch
+7. @Lorenz2008FosteringConsensusMultidimensional
+
+## Conference Papers
+
+1. @LorenzLorenz2009ConvergenceConsensusGeneral
+2. @Lorenz2007FixedPointsModels
+3. @Lorenz2006ConvergenceProductsStochastic
+4. @Lorenz2005ContinuousOpinionDynamics
+5. @Lorenz2003MultidimensionalOpinionDynamics
+6. @Lorenz2003OpinionDynamicsHeterogeneous
+
+## (Edited) Books
+
+1. @DeutschmannEtAl2020ComputationalConflictResearch
+2. @DragolovEtAl2016SocialCohesionWestern
+
+
+## Theses
+
+1. **Habilitation** (Computational Social Science): @Lorenz2017SystemicEffectsModels   
+2. **Dissertation** (Mathematics): @Lorenz2003MehrdimensionaleMeinungsdynamikBei  
+3. **Diploma thesis** (Mathematics): @Lorenz2007RepeatedAveragingBoundeda
+
+## Preprints / Self-archived
+
+1. @Lorenz2021QuantificationCrowdWisdom
+2. @MetzLorenz2013BecomeWhoYou
+3. @LorenzMenino2005DesigningParticipatoryBudgeting

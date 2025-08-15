@@ -1,0 +1,13 @@
+---
+title: "Body connected socket to charge cell phone"
+date: 2010-06-03
+categories: 
+  - "english"
+  - "half-baked-ideas"
+---
+
+The cell phone gets more and more important for life, including critical issues such as long and short term memory, orientation in space, and payment information. Loss of battery power can thus result not only in loss of remote communication ability but also more critical things such as no access to memorized information, getting lost in space or being short on cash. Probably, dependence on mobile devices will get even more serious in the future. Thus, it can be as important to get battery power than for example to get food, shelter or sleep. A body power point (e.g. a socket) which extracts electricity out of body energy would be a necessary invention. At best it would be something biochemical such that energy is accessible also when the physical ability is already very limited.
+
+A possible nice side effect: Imagine you burn some calories to recharge your mobile. I appreciate any technical information how to implement such a charge power point on human skin.
+
+PS: The issue was also touched at xkcd.com but with an emphasis on software issues not electricity. [![](images/surgery.png)](http://xkcd.com/644/)

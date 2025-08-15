@@ -1,0 +1,14 @@
+---
+title: "Dissent due to more links"
+date: 2011-06-25
+categories: 
+  - "english"
+---
+
+I watched Eli Pariser's TED talk on increasing bi-polarization of viewpoints due to automatic prioritizing of Facebook news feed items.   I think this effect is related and enforced by what is studied in a model by J.K. Shin and me in [Tipping Diffusivity in Information Accumulation Systems: More Links, less Consensus](http://dx.doi.org/10.1088%2F1742-5468%2F2010%2F06%2FP06005) (Shin & Lorenz, JSTAT 2010, [arXiv](http://arxiv.org/abs/0909.1252)). <!--more-->
+
+We study a situation of two communities, say Conservatives and Progressives which members are connected through many links within their community and fewer links to members of the other community. We showed that **increasing the number of links** while keeping the ratio of external to internal friends constant can **make persistent dissent between communities possible** . With a fewer number of friends both communities must converge finally to a consensual view.
+
+[Eli Pariser](http://en.wikipedia.org/wiki/Eli_Pariser) reports that he lost access to opinions of his few conservative friends (his intercommunity links) because Facebook automatically sorted and filtered his news feed due to the fact that he clicks more often at the news of his progressive community friends. Both results together lead to the conclusion: **With more friends and more connections in social networks we might face more dissent and more fragmentation in opinions and culture.**
+
+By the way, our paper contains a nice "dynamical overview" figure about our model. I think it is a good example to learn what an **attractive but unstable fixed point** is and how fixed points bifurcate. (Click on the picture for a larger pdf.) [![More Links, Less Consensus](images/fig2_3_blog-crop-e1309012685135.jpeg)](http://janlo.de/wp/wp-content/uploads/2011/06/fig2_3_blog-crop.pdf)

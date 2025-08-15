@@ -1,0 +1,43 @@
+---
+title: "Neue Regierungsform für Deutschland: Offene Mehrheitsregierung"
+date: 2017-11-21
+categories: 
+  - "deutsch"
+---
+
+Direkt nach der Bundestagswahl 2017 war dies mein Vorschlag die Wahl von Merkel zur Kanzlerin ohne Koalition:
+
+<iframe style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjan.lorenz%2Fposts%2F10203871441303306&amp;width=500" width="500" height="398" frameborder="0" scrolling="no"></iframe>
+
+Nach dem Scheitern der Jamaika-Sondierungen zu einer CDU-FDP-GRÜNE-CSU Koalition und der weiteren strikten Absage von SPD zu Sondierungen zu einer CDU-SPD-CSU Koalition, ist klar dass eine Koaltionsregierung im traditionellen Sinne zur Zeit nicht möglich ist. Da Neuwahlen mit hoher Wahrscheinlichkeit zu den gleichen oder ähnlich unbeliebten Mehrheitsoptionen führen können, sind neue Regierungsformen von Interesse. Im politischen Diskurs steht hier nur das Konzept "Mindheitsregierung" in der Diskussion. **Ich schlage hier als Denkrichtung eine "offene Mehrheitsregierung" vor.** Diese orientiert sich an die Idee der "[Zauberformel](https://de.wikipedia.org/wiki/Zauberformel_\(Schweizer_Landesregierung\))" in der Schweiz.
+
+In der offenen Mehrheitsregierung wird das Kabinett nach dem Grundsatz der Proportionalität aus allen relevanten Parteien gebildet, die genügend bereit zur Konsens- und Kompromissfindung sind. Die allermeisten Koalitionsregierungen bilden schlussendlich diese Proportionalität recht genau ab, dieser empirische Befund wird als "[Gamson's Law](https://www.bundeswahlleiter.de/bundestagswahlen/2017/ergebnisse.html)" bezeichnet.
+
+Für die offene Mehrheitsregierung wird kein Koalitionsvertrag mit Politikzielen geschlossen, sondern eine **Rahmenvereinbarung über die Ressortaufteilung und den Bundeshaushalt**. Das Kabinett spiegelt damit diesen Teil des Bundestages in einer "[übergroßen Gewinnkoalition](https://de.wikipedia.org/wiki/%C3%9Cbergro%C3%9Fe_Koalition)" wieder. Übergroße Koalitionen sind inherent instabil, da immer auf mindestens einen Partner verzichtet werden kann (wie z.B. auch auf die CSU in der Regierung Merkel III). Deshalb nenne ich diese Regierungsform nicht Koalition. Die Gesetzgebung wird - sofern möglich - auf dem in Deutschland bisher üblichen Wege durch Beschluss im Kabinett initiiert, dies kann aber auch vermehrt aus der Mitte des Bundestages geschehen. Die Rahmenvereinbarung soll es gestatten, dass auch Gesetze vom Bundestag beschlossen werden können, wenn im Bundeskabinett vertretene Parteien dagegen sind. Diese Regierungsform basiert auf der Sachorientierung einer breiten Mehrheit der Bundestagsabgeordneten, sowie auf dem Respekt vor Mehrheitsentscheiden des Bundestages. Beides scheint mir in Deutschland eigentlich in ausreichendem Maße vorhanden zu sein.
+
+Die aktuelle Lage kann man bei gegebenen [Sitzverhältnissen](https://www.bundeswahlleiter.de/bundestagswahlen/2017/ergebnisse.html) wie folgt analysieren. Die relevanten Parteien sind alle jene mit Fraktionen im Bundestag. Die genügend Konsens- und Kompromissorientierten sind die Parteien, die für sich alleine gesehen Kompromissfähigkeit mit Parteien zeigen mit denen sie zusammen mindestens die Hälfte der Stimmen des Bundestages abdecken. Dies sieht bei den Parteien gemäß Festlegungen vor der Bundestagswahl und Verhalten nach der Wahl wie folgt aus:
+
+- **CDU** kooperationsbereit mit SPD, FDP, GRÜNE, CSU (546/709 Stimmen, 77%)
+- **SPD** kooperationsbereit mit FDP, LINKE, GRÜNE (369/709 Stimmen, 52%), da nur die große Koalition CDU-SPD-CSU ausgeschlossen wurde kann auch davon ausgegangen werden, dass kooperationsbereitschaft mit CDU und CSU wieder aufgenommen wird
+- **AfD** Kooperationsbereitschaft ziemlich unklar, maximal mit FDP, CSU (218/709 Stimmen, 31%)
+- **FDP** kooperationsbereit mit CDU, SPD, CSU (479/709 Stimmen, 68%)
+- **LINKE** kooperationsbereit mit SPD, GRÜNE (289/709 Stimmen, 41%)
+- **GRÜNE** kooperationsbereit mit CDU, SPD, FDP, LINKE, CSU (618/709 Stimmen, 87%)
+- **CSU** kooperationsbereit mit CDU, SPD, FDP, GRÜNE (546/709 Stimmen, 77%)
+
+Potential für die Teilnahme an einer offenen Mehrheitsregierung haben also CDU-SPD-FDP-GRÜNE-CSU (615/709 Stimmen, 86%). Da die FDP sich in den Sondierung nicht abschließend kompromissbereit gezeigt hat, könnten es auch lediglich CDU-SPD-GRÜNE-CSU (525/709 Stimmen, 74%) sein.
+
+Das derzeitige Kabinett der Bundesregierung hat 16 Mitlglieder, das ergäbe nach [Saint-Laguë Zuteilungsverfahren](https://de.wikipedia.org/wiki/Sainte-Lagu%C3%AB-Verfahren) die Kabinettsposten:
+
+- CDU-SPD-FDP-GRÜNE-CSU 6-5-2-2-1
+- CDU-SPD-GRÜNE-CSU 7-5-2-2
+
+Durch die notwendige Rundung wird in beiden Aufteilungen leider die CDU bevorzugt. Da diese durch die herausgehobene Machtposition der Kanzlerin eh Vorteile hat, ist dies nicht wünschenswert.
+
+Für ein Kabinett von CDU-SPD-GRÜNE-CSU mit 14 Mitgliedern wäre die Aufteilung 6-5-2-1 und würde die CDU nicht bevorzugen, sondern die SPD zum Nachteil der CSU. Ein Kabinet mit 18 Mitgliedern hätte die Aufteilung 7-6-3-2 und würde statt der CDU die SPD, GRÜNE und CSU leicht bevorzugen, was angesichts der Macht der Kanzlerin angemessen wäre.
+
+Für ein Kabinett von CDU-SPD-FDP-GRÜNE-CSU mit 14 Mitgliedern hätte die Aufteilung 5-4-2-2-1. Dies würde die CDU nicht bevorzugen. Die GRÜNEN wären aber gegenüber der größeren FDP bevorzugt. Da die FDP nicht soviel größer ist würde der Unterschied erst bei 17 Mitgliedern herauskommen mit 6-5-3-2-1 was allerdings die FDP noch mehr bevorzugen würde als bei 14 die GRÜNEN.
+
+**Weitere Überlegungen, wie eine offene Mehrheitsregierung sinnvoll geregelt werden könnte:** Ministerien müssen nach Sachkompetenz besetzt werden. Um das sicherzustellen sollte ein Verfahren und ein informelles Gremium (ähnlich dem Koalitionsausschuss) entwickelt werden, welches den Parteien für ihre Ressorts ein Vorschlagsrecht gibt, die Besetzung aber einer Zustimmung bedarf, die einer Mehrheit der an der Mehrheitsregierung beteiligten Parteien proportional zu ihrer Stärke im Bundestag entspricht.
+
+Eine offene Mehrheitsregierung sollte ein eher weniger politisiertes und stärker administrativ geprägtes Regierungshandeln kultivieren. Für die politische Auseinandersetzung ist primär der Bundestag vorgesehen, dies sind schießlich die Volksvertreter. Eine angemessene Regelung wäre daher, dass im Bundeskabinett keine Parteivorsitzenden vertreten sein sollten. Diese sollten eher Fraktionsvorsitzende sein.

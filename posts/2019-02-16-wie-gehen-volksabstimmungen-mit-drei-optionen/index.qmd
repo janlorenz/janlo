@@ -1,0 +1,87 @@
+---
+title: "Wie gehen Volksabstimmungen mit drei Optionen?"
+date: 2019-02-16
+categories: 
+  - "deutsch"
+---
+
+In Deutschland gibt es bisher kaum Erfahrung mit Volksabstimmungen in denen es mehr als zwei Optionen zum gleichen Sachverhalt gibt. Viele Gesetze zur Volksgesetzgebung lassen aber genau das zu. Ein typisches Szenario ist, dass das Parlament einen Gegenvorschlag (oder, positiver formuliert, eine Kompromissvorschlag) zu einem per Volksbegehren entstandenen Vorschlag dazufügt. Ich erläutere an einem aktuellen Beispiels aus Bremen, wie die Abstimmung dann funktioniert. Das Verfahren zeigt, dass repräsentative und direkte Demokratie sinnvoll verzahnt sind und dass direktdemokratische Prozesse sinnvolle und komplexe gesellschaftlichen Kompromisbildungsprozesse auf diese Weise eher ermöglichen als zur Polarisierung beizutragen.
+
+<!--more-->
+
+## **Bebauung des Galopprennbahngeländes in Bremen**
+
+Die [Bürgerinitiative Rennbahngelände Bremen](https://www.bi-rennbahngelaende-bremen.de) hat ein Volksbegehren erfolgreich abgeschlossen, in dem die Bebauung des Geländes per Ortsgesetz ausgeschlossen wird. Volksbegehren heißt, dass das Stadtparlament (indem es eine rot-grüne Mehrheit gibt) nun über das Ortsgesetz beschließen muss. Falls sie es ablehnt, kann die Bürgerinitiative einen Volksentscheid darüber erzwingen. Das Parlament hat aber auch die Möglichkeit einen weiteren Vorschlag für den Volksentscheid vorzuschlagen (siehe [Gesetz über das Verfahren beim Volksentscheid](https://www.transparenz.bremen.de/sixcms/detail.php?gsid=bremen2014_tp.c.70539.de&template=20_gp_ifg_meta_detail_d) §1 und §3). Die Grünen hatten einen Kompromiss (hälftige Bebauung) ins Gespräch gebracht. Ihr Koalitionspartner SPD hat sie allerdings davon abgebracht. Eine Mehrheit im Parlament ohne Koalitionszwang hätte einen weiteren Vorschlag dem Volksentscheid vorlegen können. Es hätten dann drei Optionen gegeben:
+
+1. **Gesetzentwurf der Bürgerinitiative** (Wohnbebauung wird ausgeschlossen)
+2. **Hälftige Bebauung** (potentieller Vorschlag aus dem Parlament, Wohnbebauung wird eingeschränkt)
+3. **Status Quo** (Regelung der Bebauung durch Verfahren ohne Volksentscheid)
+
+## Wie kann über 3 Optionen abgestimmt werden?
+
+Es gibt viele Möglichkeiten wie über drei Optionen abgestimmt werden kann.  
+
+### **Einfache Mehrheit ... ❌ Ein Minderheitssieg ist möglich**
+
+Eine Wahl mit einer Stimme, wie bei der Erststimme im Bundestagswahlkreis, ist nicht geeignet. Dann kann es sein, dass die Option, die die meisten Stimmen hat trotzdem von einer Mehrheit abgelehnt wird und eine Mehrheit soll hinter der Entscheidung stehen, genauso wie es im Parlament erforderlich ist.
+
+### (Integrierte) Stichwahl ... **❌**Kompromiss kann vorzeitig rausfliegen
+
+Um eine Mehrheit für den Sieger sicherzustellen, wird zum Beispiel bei Bürgermeisterwahlen oft eine zweite Runde mit einer Stichwahl der beiden besten Optionen aus der ersten Runde angehängt. Das kann auch integriert in einem Wahlgang gemacht werden, wenn auf dem Stimmzettel eine Rangfolge der drei Optionen angegeben werden kann. In der ersten Auszählung wird nur auf die erste Präferenz geschaut. Gibt es dort keinen Sieger mit einer Mehrheit, dann fliegt die Option mit den wenigsten Stimmen raus und die Stimmzettel auf denen die rausgeflogene Option auf Platz eins ist werden nach ihrer zweiten Präferenz neu zugeordnet. So gewinnt auf jedenfall eine Option mit einer Mehrheit, auch wenn es natürlich bei einem Teil der Abstimmenden nur das kleinere Übel ist. Auch diese Methode ist aber nicht unbedingt geeignet. Ist eine Option klar als Kompromiss zu erkennen, gleichzeitig die Gesellschaft in dieser Frage stark zwischen den beiden anderen Optionen polarisiert, dann fliegt die Kompromiss-Option in der ersten Runde raus, obwohl sie klar von beiden Seiten als das kleiner Über gesehen wird. Alle am Ende Unterlegenen können sich dann besonders ärgern nicht gleich für den Kompromiss gestimmt zu haben.
+
+### Rangordnungen sind generell problematisch **❌**
+
+Bei drei Optionen ist es für viele Menschen natürlich, eine Rangordnung zu bilden. Es gibt aber ein generelles Problem, wenn auf den Stimmzetteln Rangordnungen stehen. Das kann man am besten am Beispiel erläutern: Die Rangordnung **1/2/3** steht für eine Person, die die Bürgerinitiative am besten findet, ansonsten aber die hälftige Bebauung immer noch besser als den Status Quo. Die Rangordnung **2/3/1** findet die hälftige Bebauung am besten, aber den Status Quo noch besser als die Bürgerinitiative. **3/1/2** ist für den Status Quo, lehnt aber die hälftige Bebauung ab, sondern will dann lieber, die Bürgerinitiative. Das ist vielleicht nicht für jeden nachvollziehbar, aber es gibt solche Positionen \[1\]. Gehen wir davon aus, dass jeweils ein Drittel der Abstimmenden eine dieser drei Positionen unterstützt. Natürlich gibt es noch 3/2/1, 1/3/2 und 2/1/3 aber die vernachlässigen wir hier, um das [Condorcet-Paradox](https://de.wikipedia.org/wiki/Condorcet-Paradoxon) der zyklischen Mehrheiten zu erläutern. In unserem Beispiel sieht es jetzt nämlich so aus: zwei Drittel finden den Status Quo besser als die Bürgerinitiative, zwei Drittel finden aber die hälftige Bebauung besser als den Status Quo, aber wiederum finden zwei Drittel die Bürgerinitiative besser als die hälftige Bebauung. So geht es im Kreis weiter: Es gibt immer eine Mehrheit die etwas anderes besser finden. Wie bei [Schere-Stein-Papier](https://de.wikipedia.org/wiki/Schere,_Stein,_Papier) gibt es keine klar beste Option. Eine solche ungünstige Situation muss es nicht immer geben. Es ist zum Beispiel gut möglich, dass in der Bremer Bevölkerung der Kompromiss der hälftigen Bebauung eine Mehrheit gegen den Status Quo bekommen würde und auch gegen die Bürgerinitiative. In diesem Fall wäre es dann egal, wie der Status Quo gegen die Bürgerinitiative abschneidet. In einem solchen Fall nennt man die Option die gegen alle anderen Optionen eine Mehrheit gewinnt den [Condorcet-Sieger](https://de.wikipedia.org/wiki/Condorcet-Methode#Condorcet-Sieger) \[2\]. Da es aber nicht immer einen Condorcet-Sieger gibt, braucht man eine andere Methode, die immer eine Entscheidung bestimmt.
+
+### Wahl durch Zustimmung mit Status Quo **❓**
+
+Eine andere Philosophie als Rangordnungen liegt der [Wahl durch Zustimmung](https://de.wikipedia.org/wiki/Wahl_durch_Zustimmung) zugrunde. Jede Abstimmende kann ihre Zustimmung oder Ablehnung zu jeder Option ausdrücken. Gewonnen hat die Option, die die meiste Zustimmung erhält. Hier zeigt sich schon ein Unterschied von Volksabstimmungen zu Personenwahlen. Ein Option ist bei Volksentscheiden (im Gegensatz zu Wahlen) der Status Quo. Ihn bräuchte man gar nicht wählen, bzw. er bleibt, wenn nichts Neues gewählt wird. In unserem Beispiel braucht man eigentlich also nur die beiden Optionen 1 und 2 jeweils mit der Möglichkeit für "Ja" und "Nein" auf dem Stimmzettel. Genauso würde auch der erste Teil des Stimmzettels in Bremen nach [Gesetz über das Verfahren beim Volksentscheid](https://www.transparenz.bremen.de/sixcms/detail.php?gsid=bremen2014_tp.c.70539.de&template=20_gp_ifg_meta_detail_d) §3 (4) aussehen.
+
+Bei Volksabstimmungen soll eine Änderung des Status Quo (analog zum Parlamentsgesetzgebungsverfahren) von einer Mehrheit unterstützt werden. Zusätzlich zur meisten Zustimmung sollte also der Gewinner auch mindestens 50% Ja-Stimmen erhalten. Der Sieger wäre nach den Grundsätzen der Wahl durch Zustimmung die Option mit den meisten Ja-Stimmen, wenn sie auch eine Mehrheit repräsentieren, ansonsten der Status Quo (Option 3 in unserem Beispiel).
+
+## Zustimmung mit Stichfrage! **✅**
+
+Auf dem Stimmzettel ist aber nach [Gesetz über das Verfahren beim Volksentscheid](https://www.transparenz.bremen.de/sixcms/detail.php?gsid=bremen2014_tp.c.70539.de&template=20_gp_ifg_meta_detail_d) §3 (4) zusätzlich zu den zwei Ja-Nein-Entscheidungen noch eine Stichfrage vorgesehen in der man ausdrücken kann welchen der Gesetzentwürfe man vorzieht für den Fall, dass beide Gesetzentwürfe jeweils die erforderliche Zustimmung erreichen. Schaffen es beide Optionen jeweils eine Mehrheit an Zustimmung zu erhalten, dann gewinnt nicht die mit den meisten Ja-Stimmen, sondern die, die die meisten Stimmen bei der Stichfrage erhält ([Gesetz über das Verfahren beim Volksentscheid](https://www.transparenz.bremen.de/sixcms/detail.php?gsid=bremen2014_tp.c.70539.de&template=20_gp_ifg_meta_detail_d) §6). Die Anzahl der Ja- und Nein-Stimmen wird in diesem Verfahren nur bei einem Gleichstand in der Stichfrage berücksichtigt. Auf dem Stimmzettel stehen für die abstimmende Person also drei Fragen:
+
+| **Stimmzettel** |  |  |
+| --- | --- | --- |
+| Ziehen Sie **Option 1** dem Status Quo vor? | **□ Ja** | **□ Nein** |
+| Ziehen Sie **Option 2** dem Status Quo vor? | **□ Ja** | **□ Nein** |
+| **Stichfrage:** Welche Option ziehen sie vor, falls beide eine Mehrheit bekommen? | **□ 1** | **□ 2** |
+
+Warum gibt es die Stichfrage anstatt einfach die Option mit der meisten Zustimmung zum Sieger zu erklären? Um auch den Vertretern das Status Quo eine Stimme zu geben! Wer beide Optionen für schlechter als den Status Quo hält hat wahrscheinlich trotzdem eine Meinung welche der beiden Optionen er für das kleinere Übel hält.
+
+### Kann man strategisch abstimmen?
+
+Strategisch wählen heißt, dass man den Stimmzettel anders ausfüllt als es den eigenen Präferenzen entspricht weil man aufgrund von Annahmen über die Abstimmungen der anderen ein für sich besseres Ergebnis erhofft. Das [Gibbard-Satterthwaite-Theorem](https://de.wikipedia.org/wiki/Gibbard-Satterthwaite-Theorem) sagt, dass strategisches Wählen grundsätzlich immer möglich sein kann, wenn mehr als zwei Optionen zur Wahl stehen. Ein klassisches Beispiel bei der Bundestagswahl ist, der Verzicht auf das Wählen einer Kleinpartei, die einem eigentlich am besten gefällt, aus der Erwartung, dass diese Stimme dann durch die 5%-Sperrklausel verfällt.
+
+Wie könnte strategisches Wählen beim Volksentscheid mit drei Optionen aussehen? Ein Beispiel: Als Befürworterin von Option 1, die Option 2 aber immer noch dem Status Quo vorziehen würde, müsste man eigentlich für beide Optionen mit "Ja" stimmen und bei der Stichfrage mit "1". Wenn aber erwartet werden kann, dass es vielleicht für beide Optionen knapp wird, eine Mehrheit zu bekommen und gleichzeitig sicher ist, dass Option 2 in der Stichwahl vorne liegt, dann könnte man aus strategischen Gründen bei Option 2 mit "Nein" Stimmen. Dadurch erhöht man die Chance, dass es Option 2 nicht über 50% schafft, und sichert damit den Sieg von 1, da 1 ja bei der Stichfrage sicher gegen 2 verlieren wird. Dafür muss es aber 1 schaffen. Es ist daher ein Risiko! Denn wenn 1 es auch nicht schafft, dann hat man gar nichts, nichtmal 2, was eigentlich das kleinere Übel wäre.
+
+## Fazit **👍**
+
+Ein absolut transparentes und nachvollziehbares Verfahren. Es ist zwar strategisches Wählen möglich, aber die Anreize sind verhältnismäßig klein. Kompromissentscheidungen im Zusammenspiel von direkter und repräsentativer Demokratie sind also möglich.
+
+### Erläuterung für theoretisch Interessierte
+
+Bei der Mehrheitswahl durch Zustimmung mit zwei Optionen, Status Quo und Stichfrage gibt es insgesamt 2^3 = 8 Möglichkeiten den Stimmzettel auszufüllen. Bei drei Optionen gibt es aber nur 3! = 6 mögliche Rangordnungen. Die Beschreibung der Beispiele in diesem Beitrag legt aber nahe, dass es möglich ist, aus jeder Rangordnung ein Abstimmungsverhalten für den Volksentscheid abzuleiten. Wie ist das aber umgekehrt, da es ja mehr als sechs Möglichkeiten gibt, den Stimmzettel auszufüllen. Die folgende Tabelle gibt die Antwort.
+
+| Option A | Option B | Stichfrage | Rangordnung |
+| --- | --- | --- | --- |
+| Ja | Ja | A | A > B > Status Quo |
+| Ja | Ja | B | B > A > Status Quo |
+| Ja | Nein | A | A > Status Quo > B |
+| Ja | Nein | B | inkonsistent! |
+| Nein | Ja | B | B > Status Quo > A |
+| Nein | Ja | A | inkonsistent! |
+| Nein | Nein | A | Status Quo > A > B |
+| Nein | Nein | B | Status Quo > B > A |
+
+Zwei Möglichkeiten, den Stimmzettel auszufüllen, sind ziemlich unlogisch. Wer eine Option ablehnt, die andere aber möchte, sollte in der Stichfrage eigentlich nicht diejenige Option ankreuzen, die er ablehnt! Verboten ist das aber nicht.
+
+### Anmerkungen  
+
+\[1\] Die drei Optionen könnten zum Beispiel drei Einkommenssteuersysteme sein, bei denen sich keiner als natürlicher Kompromissvorschlag identifizieren lässt.  
+(A) Viele Vorteile für Geringverdienende, einige Vorteile für mittlere Einkommen, keine für Gutverdienende.  
+(B) Viele Vorteile für mittlere Einkommen, einige Vorteile für Gutverdienende, keine für Geringverdienende.  
+(C) Viele Vorteile für Gutverdienende, einige Vorteile für Geringverdienende, keine für mittlere Einkommen.  
+\[2\] Das Beispiel bei der integrierten Stichwahl, zeigt, dass die integrierte Stichwahl nicht immer den Condorcet Sieger zum Sieger macht. Der Condorcet-Sieger ist in diesem Fall der Kompromiss.

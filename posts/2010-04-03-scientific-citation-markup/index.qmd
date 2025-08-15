@@ -1,0 +1,19 @@
+---
+title: "Scientific Citation Markup"
+date: 2010-04-03
+categories: 
+  - "english"
+  - "half-baked-ideas"
+---
+
+Citations in scientific papers are the basic ingredient to compute [impact factors](http://en.wikipedia.org/wiki/Impact_factor) and [eigenfactors](http://www.eigenfactor.org/index.php) of scientific journals. The number of citations a publications receives in the course of time is the most neutral and accepted criteria for its relevance. Thus, the number of citations a paper receives is very important for the careers of its author.
+
+Everybody who reads or writes scientific papers knows that a citation may have very different meanings which do not always coincide with the interpretation of "pointing to relevance", as implied by the above uses. Further on, every scientist knows that the motivations of citing a paper are not always driven by pure scientific reasons.
+
+Ideally, all these differences in citations could be incorporated in a **scientific citation markup** like `\cite[markup]{RefKeyForPaper}` (in [LaTeX](http://en.wikipedia.org/wiki/LaTex) citation style) or the like. Some ideas:
+
+`\cite[negative]{PaperWithSevereErrors}` `\cite[community feeling]{PopularPaperWithNoSpecificRelation}` `\cite[please journal editor]{AnyPaperOfEditor}` `\cite[enforced by a referee]{SuggestedPaper}` `\cite[proof or evidence elsewhere]{TechnicalPaper}` (The latter can be used to (i) avoid redundancy in the literature, (ii) save space, or (iii) to obfuscate that there is none. (iii) is prominent in physics as a citation with a reference to an own paper which is "to appear")
+
+Imagine, what more sophisticated profiles of papers, journals and scientists one could create with it ...
+
+**Edit 2020-07-29:** Here is serious work on the solution [http://www.sparontologies.net/ontologies/cito](http://www.sparontologies.net/ontologies/cito) Great to see!

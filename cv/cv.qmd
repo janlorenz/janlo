@@ -1,0 +1,244 @@
+---
+title: Jan's CV 
+format:
+  modern2-cv-pdf: default
+author: Jan Lorenz
+date: today
+#cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
+cvcolor: 
+  main: "3c3c3c" ##d1270e ##B83B5E
+  accent: "D1270E" ##
+jobtitle: Assistant Professor of Social Data Science at Constructor University 
+sidebar:
+  image: JanLorenz_CU_2023-03_square.jpg
+  # bullets:
+  #   - german
+  #   - married
+  sections: 
+    - name: Contact
+      items:
+        - icon: orcid
+          text: "ORCID: 0000-0002-5547-7848"
+          href: https://orcid.org/0000-0002-5547-7848
+        - icon: building-columns
+          text: "Constructor University, Bremen"
+          href: https://www.constructor.university
+        - icon: location-dot
+          text: "Campus Ring 1, 28759 Bremen, Germany"
+        - icon: building
+          text: "Research IV, Room 61b"
+        - icon: inbox
+          text: jlorenz@constructor.university
+          href: mailto:jlorenz@constructor.university
+        - icon: envelope
+          text: "Lifelong: post@janlo.de"
+          href: mailto:post@janlo.de
+        - icon: phone
+          text: "+49 176 53448686"
+        - icon: house
+          text: "https://janlo.de"
+          href: https://janlo.de
+        - icon: github
+          text: "GitHub: janlorenz"
+          href: https://github.com/janlorenz
+        - icon: bluesky
+          text: "Bluesky: janlo.de"
+          href: https://bsky.app/profile/janlo.de
+        - icon: mastodon
+          text: "Mastodon: datasci.social/janlo"
+          href: https://datasci.social/janlo
+        - icon: linkedin
+          text: "LinkedIn"
+          href: https://www.linkedin.com/in/jan-lorenz-51316665/
+    - name: Programming
+      items:
+        - text: R
+          exp: 
+            text: "10+ yrs."
+            num: 0.9
+        - text: NetLogo
+          exp: 
+            text: "10+ yrs."
+            num: 0.9
+        - text: Python
+          exp: 
+            text: "2 yrs."
+            num: 0.1
+        - text: Quarto
+          exp: 
+            text: "3 yrs."
+            num: 0.5
+    - name: Skills
+      items:
+        - text: Data Analysis
+          exp: 
+            text: "10+ yrs."
+            num: 0.9
+        - text: Agent-based Modeling
+          exp: 
+            text: "10+ yrs."
+            num: 0.9
+        - text: Applied Mathematics
+          exp: 
+            text: "15+ yrs."
+            num: 1
+        - text: Network Analysis
+          exp: 
+            text: "10+ yrs."
+            num: 0.4
+        - text: Text Analysis
+          exp: 
+            text: "5 yrs."
+            num: 0.4
+        - text: Political Science
+          exp: 
+            text: "10+ yrs."
+            num: 0.4
+        - text: Economics
+          exp: 
+            text: "10+ yrs."
+            num: 0.3
+        - text: Psychology
+          exp: 
+            text: "10+ yrs."
+            num: 0.3
+        - text: Sociology
+          exp: 
+            text: "10+ yrs."
+            num: 0.2
+    - name: Tools
+      items:
+        - Positron/RStudio
+        - Git
+        - Terminal
+        - Ubuntu Linux
+    - name: Education
+      items:
+        - text: "Ph.D. Computer Science"
+          inst: "University of Konstanz"
+          time: "09/2012 - 11/2015"
+          details: "Thesis: Positional Approach for Network Centrality"
+        - text: "Businessmathematics (Dipl.)"
+          inst: "Karlsruhe Institute of Technology"
+          time: "10/2006 - 07/2012"
+          details: "Thesis: Modularity Maximization"
+execute: 
+  echo: false
+suppress-bibliography: true 
+---
+
+```{r}
+#| label: cvevents
+cvevents <- function(tbl, when, what, where, descr) {
+
+    command_start <- "\\cvevent"
+    tbl[[where]] <- gsub("\n", " \\\\newline ", tbl[[where]])
+    res <- paste0(
+        command_start, "{", tbl[[when]], "}", 
+        "{", tbl[[what]], "}",
+        "{", tbl[[where]], "}",
+        "{", tbl[[descr]], "}"
+        )
+
+    cat(res, sep = "\n\n\n")
+}
+
+cvproj <- function(tbl,what,role,items){
+    command_start <- "\\cvproj"
+    res <- paste0(
+        command_start, "{", tbl[[what]], "}",
+        "{", tbl[[role]], "}",
+        "{", sapply(tbl[[items]], function(x)paste0(x,collapse = ", ")), "}"
+    )
+
+    cat(res, sep = "\n\n\n")
+}
+```
+
+# Summary
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+# Academic Positions
+
+Besides my first two and a half year postdoc at ETH Zurich, I have been working mostly in the larger Bremen Research Area with a focus on Jacobs/Constructor University. This is the full list.
+
+\bigskip
+
+
+```{r}
+#| label: experience
+#| output: asis
+tibble::tribble(
+    ~role, ~institution, ~dates, ~details,
+    "Assistant Professor of Social Data Science", "School of Business, Social and Decision Sciences\nConstructor University Bremen gGmbH (former Jacobs University)", "2022-04 - 2028-03", "Study Program Co-Coordinator for \\textit{MSc. in Data Science for Society and Business}",
+    "Postdoctoral Fellow", "Department of Psychology and Methods\nJacobs University Bremen gGmbH", "2019-04 - 2021-12",
+    "Position in the DFG funded research project \\href{https://gepris.dfg.de/gepris/projekt/396901899}{ToRealSim} (PI: Klaus Boehnke, mainly authored by Jan Lorenz)", 
+    "Research Associate", "Complex Systems Lab, Institute for Theoretical Physics\nUniversität Bremen", "2019-01 - 2019-09", "Supervisor: Stefan Bornholdt",
+    "Postdoctoral Researcher (80\\%)", "Department of Computational Social Science\nGESIS Leibniz-Institut fur Sozialwissenschaften, Köln", "2018-03 - 2018-09", "Supervisor: Claudia Wagner",
+    "Postdoctoral Fellow ", "Department of Psychology and Methods\nJacobs University Bremen gGmbH", "2014-10 - 2017-09", "PI (eigene Stelle) in the DFG funded research project \\href{https://gepris.dfg.de/gepris/projekt/265108307?language=en}{Opinion Dynamics and Collective Decisions: Procedures, Behavior, and Systems Dynamics}",
+    "Lecturer (50\\%)", "Institut für Sozialwissenschaften\nCarl von Ossietzky Universität Oldenburg", "2014-04 - 2014-09", "Political Science Seminars, Supervisor: Markus Tepe",
+    "Postdoctoral Fellow ", "School of Humanities and Social Sciences", "2012-10 - 2014-03", "Working on the project \\textit{Social Cohesion Radar} funded by the Bertelsmann Stiftung (PI: Klaus Boehnke)",
+    "Research Associate (50-75\\%)", "Institut für Sozialwissenschaften\nCarl von Ossietzky Universität Oldenburg", "2010-01 - 2012-09", "Research and Manager of Experimental Lab, Supervisor: Bernhard Kittel",
+    "Postdoc (50-75\\%)", "Chair of Systems Design\nETH Zurich", "2007-04 - 2009-10", "Supervisor: Frank Schweitzer"
+) |>
+    cvevents(when = "dates", what = "role", where = "institution", descr = "details")
+```
+
+# Education
+
+```{r}
+#| label: education
+#| output: asis
+tibble::tribble(
+    ~role, ~institution, ~dates, ~details,
+    "Habilitation", "Computational Social Science\nJacobs University Bremen", "Finalized 2017-10", "",
+    "Dr. rer. nat. Mathematics", "Universität Bremen\nSupervisor: Ulrich Krause, Rainer Hegselmann", "2004-01 - 2007-03",
+    "", 
+    "Diplom Mathematiker", "Universität Bremen", "Finalized 2003-03", ""
+) |>
+    cvevents(when = "dates", what = "role", where = "institution", descr = "details")
+```
+
+# Grants
+
+
+```{r}
+#| label: proj
+#| output: asis
+tibble::tribble(
+    ~what, ~role, ~items,
+    "R packages", "Creator and Maintainer", c("edgebundle", "graphlayouts", "levelnet", "netrankr", "netUtils", "networkdata", "PSAWR", "roughnet", "roughsf", "rtoot", "Rtumblr", "signnet", "snahelper", "webbotparseR", "webtrackR"),
+    "R packages", "Contributor", c("backbone", "ggraph", "multigraphr", "netropy", "rang", "rgraph6"),
+    "Quarto extensions", "Creator and Maintainer",
+    c("Academicons (shortcodes)", "Blackboard (revealjs theme)", "sketchy (html theme)", "share buttons (filter)", "nutshell (filter)", "quartocities (website template)", "quartocv (cv templates)"),
+    "soccerverse.com (football analytics website)", "Creator and Maintainer",
+    c(
+        "Manual and automated gathering of football results around the world",
+        "Harmonizing data (e.g. club names and managers)",
+        "Implementation of ranking algorithms",
+        "Predicting of league tables and matchforecasting",
+        "Uses R, JavaScript, HTML, and CSS",
+        "around 1000 visitors/month"
+    )
+) |>
+    cvproj(what = "what", role = "role", items = "items")
+```
+
+# Memberships
+
+# Awards
+
+# Teaching
+
+# Scientific Services
+
+
+# Publications
+
+\faIcon{google-scholar} [*Google Scholar* profile by recent *years*](https://scholar.google.com/citations?hl=en&user=NxoGpCgAAAAJ&view_op=list_works&sortby=pubdate) \faIcon{arrow-down}
+
+\faIcon{google-scholar} [*Google Scholar* profile by citation *impact*](https://scholar.google.com/citations?user=NxoGpCgAAAAJ&hl=en) \faIcon{star}
+
+1. @GestefeldEtAl2022DecomposingAttitudeDistributions
+

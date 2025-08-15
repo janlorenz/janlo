@@ -1,0 +1,10 @@
+---
+title: "Meandian"
+date: 2012-02-27
+categories: 
+  - "english"
+---
+
+In [this post](../2010-06-22-die-weisheit-der-bremer/index.qmd) I demonstrated the superiority of the median over the mean in aggregating a good estimate for a guessing question which answers are bounded by zero but have no upper limit. I speculated further that the correct value often lies slightly above the median. [John Doyle](http://business.cardiff.ac.uk/contact/staff/doyle) recently invented the **meandian** (see [Meandian: A Measure of Location Based on Signed Rank of Deviations](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2005995#)) as a measure in between the mean and the median. As a consequence the meandian is typically slightly larger than the median. Doyle showed on our [PNAS dataset](http://www.pnas.org/content/108/22/9020) that the meandian indeed delivers as good results as the median and often better ones.
+
+As I really liked the idea of the meandian, I quickly checked the measure on my ["Weisheit der Bremer"-dataset](http://spreadsheets.google.com/pub?key=0AqRUj58gkTakcDIybDYtYTRBOHozTDVtRkhCX1N4Rnc&hl=de&single=true&gid=0&output=csv) and found: **Truth = 10788, Median = 9843, Meandian = 12170**. Deviations: |Median-Truth| = 945, |Meandian-Truth| = 1382. Conclusion: Meandian is also good, but the Median wins in this case. By the way: All are beaten by the [geometric mean](http://en.wikipedia.org/wiki/Geometric_mean): **Geomean = 10510** (Deviation |Geomean-Truth| = 278)

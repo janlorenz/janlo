@@ -1,0 +1,12 @@
+---
+title: "Credit Ratings as Unwanted Aggregation"
+date: 2010-03-13
+categories: 
+  - "english"
+  - "half-baked-ideas"
+---
+
+Just a quick thought: Shouldn't [credit rating agencies](http://en.wikipedia.org/wiki/Credit_rating_agency) be prohibited, just for the same reason why price-fixing agreements are prohibited in a free market?  
+The credit rating agencies correlate investment decisions and thus diminish the power of markets when we see a market as a mechanism to aggregate knowledge about economic performance.
+
+The agencies need not do worse than the market itself would do, but still there is a negative effect in the correlation. The job of the credit rating agency is to assign the credit risk of firms (or states). This can also be done by the market, where creditors would then have to decide on the offers (e.g. of interest rates) on their own. Then the market would also find some quantification of the credit risk. If we believe in markets then the information about the credit risk should not be pre-aggregated.

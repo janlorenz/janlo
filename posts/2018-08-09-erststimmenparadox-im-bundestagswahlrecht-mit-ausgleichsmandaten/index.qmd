@@ -1,0 +1,14 @@
+---
+title: "Erststimmenparadox im Bundestagswahlrecht mit Ausgleichsmandaten"
+date: 2018-08-09
+categories: 
+  - "deutsch"
+---
+
+Im aktuellen Bundestagswahlrecht kann es Situationen geben, in denen Wähler ihrem Kandidaten mit ihrer Erststimme schaden, weil sie durch die Wahl eines anderen Direktkandidaten den Einzug ihres Kandidaten über ein Ausgleichsmandat auf der Landesliste ermöglicht hätten.
+
+Beispiel:
+
+Nehmen wir folgende Situation an: Kandidat A ist sowohl in einem Wahlkreis direkt als auch auf der Landesliste seiner Partei aufgestellt. Das (stilisierte) Wahlergebnis sehe nun so aus, dass Kandidat A 100 Stimmen hat, Kandidat B 199 und Kandidat C 200 (weitere Kandidaten gebe es der Einfachheit halber nicht). Weiterhin habe die Partei von Kandidat B alle weiteren Direktmandate im Bundesland gewonnen und diese Anzahl werde exakt durch die ihr zustehenden Mandate im Land abgedeckt, während die Partei von Kandidat A bundesweit einen ähnlichen Stimmenanteil wie die Partei von Kandidat B habe. Ein Überhangmandat für die Partei von Kandidat B erzeugt also ein Ausgleichsmandat für die Partei von Kandidat A. Ist es nun weiterhin so, dass durch die Verteilung der Stimmen auf die verbundenen Landeslisten der Partei von Kandidat A seinem Bundesland das Ausgleichsmandat zufallen würde und Kandidat A der nächste auf der Liste wäre, dann ergibt sich für die Wähler von Kandidat A folgende Situation: Hätten alle (beziehungsweise mindestens zwei) Wähler anstatt Kandidat A, Kandidat B gewählt, dann würde die Partei von Kandidat B ein Überhangmandat erhalten, welches durch ein Ausgleichsmandat für die Partei von A ausgeglichen werden würde, welches der Landesliste von Kandidat A und damit Kandidat A zufallen würde. Die Wähler von A haben also dadurch, dass sie A anstatt B mit der Erststimme gewählt haben, verhindert, dass Kandidat A über die Landesliste ins Parlament einzieht.
+
+Dieses Beispiel ist zwar konstruiert, aber nicht unrealistisch. Ein Beispiel ist Sachsen: A = SPD Kandidat, B = CDU Kandidat, C = aussichtsreicher AfD Kandidat. Die SPD erhält bundesweit ähnlich viele Stimmen wie die CDU und es ist nicht unwahrscheinlich, dass die CDU in Sachsen \`\`überhängt'' und somit ein zusätzliches Überhangmandat ein Ausgleichsmandat für die SPD erzeugt. Dies müsste dann gerade an die SPD Landeslisten Sachsen fallen.

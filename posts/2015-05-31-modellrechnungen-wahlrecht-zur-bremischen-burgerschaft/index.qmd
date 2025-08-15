@@ -1,0 +1,55 @@
+---
+title: "Modellrechnungen Wahlrecht zur Bremischen Bürgerschaft"
+date: 2015-05-31
+categories: 
+  - "deutsch"
+---
+
+Nach der Wahl zur Bremischen Bürgerschaft 2015 gibt es Diskussionen zur Änderung des Wahlrechts. Neben Artikeln und Berichten von Weser-Kurier, Radio Bremen und taz ist hier ein relevanter Debattenbeitrag von Lothar Probst und Valentin Schröder [http://www.lotharprobst.de/fileadmin/user\_upload/redakteur/Aktuelles/2015/Effekte\_Wahlsystem\_2015.pdf](http://www.lotharprobst.de/fileadmin/user_upload/redakteur/Aktuelles/2015/Effekte_Wahlsystem_2015.pdf). Kritischster Punkt ist das sog. Personenstimmenparadoxon: Ein Wackelkandidat verliert sein Listenmandat, weil für ihn abgegebene Personenstimmen das Personenstimmenkontigent zu Lasten des Listenstimmenkontingents vergrößern. Er hat aber nicht genug Personenstimmen, um über das Personenstimmenkontingent ein Mandat zu bekommen. So hat jemand der ihn als Person gewählt hat, ihm eigentlich "geschadet", da er ihn möglicherweise hätte nutzen können wenn er statt ihn seine Liste gewählt hätte. So geschehen mit Thomas von Bruchs, siehe [http://www.taz.de/Paradoxien-des-Bremer-Wahlsystems/!5201700/](http://www.taz.de/Paradoxien-des-Bremer-Wahlsystems/!5201700/) .
+
+Hier stelle ich alternative Wahlergebnisse der Wahl 2015 für vier Modifikationen des Bremer Wahlrechts zur Verfügung sowie die Ergebnisse nach reiner Listenwahl, um die Relevanz der Veränderungen bei aktuellem Wahlverhalten beurteilen zu können. Im Anschluss gebe ich meine Einschätzung, wie das Bremer Wahlrecht weiter entwickelt werden sollte: Mehr Stimmen, weniger Kummulieren, einfachere Stimmabgabe (ohne Kreuze). <!--more-->
+
+# Vier Modifikationen (und alte Listenwahl zum Vergleich)
+
+Die Ergebnisse mit den Namen der hypothetischen Abgeordneten finden sich hier [https://docs.google.com/spreadsheets/d/1YvxQmoP82OOt04tAEo92Na37RH1nx9Jp6XsNFq9d8Bk/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1YvxQmoP82OOt04tAEo92Na37RH1nx9Jp6XsNFq9d8Bk/edit?usp=sharing).
+
+Die Modelle sind die folgenden:
+
+**Modell 0.** Die Sitze zugeteilt nach aktuellem Wahlrecht. Für eine Liste werden zuerst die Mandate nach Liste vergeben, danach die Mandate in der Reihenfolge der Personenstimmen an alle Kandidaten die noch kein Mandat haben.
+
+**Modell 1.** Es werden zuerst die Mandate nach Personenstimmen vergeben und dann die Mandate nach Listenstimmen an alle die noch kein Mandat haben (wie bei den Niedersächsischen Kommunalwahlen).
+
+**Modell 2.** Es wird festgelegt, dass 50% der Sitze über die Liste vergeben werden und 50% über die Personenstimmenrangliste, wobei zuerst die Personenstimmenrangliste abgearbeitet wird, danach die Liste. Bei einer ungeraden Anzahl an Gesamtmandaten habe ich eine Stimme mehr für die Personenrangliste vorgesehen.
+
+**Modell 3.** Es wird festgelegt, dass 50% der Sitze über die Liste vergeben werden und 50% über die Personenstimmenrangliste, wobei umgekehrt zu Modell 2 zuerst die Liste abgearbeitet wird, danach diePersonenstimmenrangliste.
+
+**Modell 4.** Alle Plätze werden nur nach der Personenstimmenrangliste vergeben.
+
+**Modell 5.** Alle Plätze werden nur nach der Liste vergeben. Zum Vergleich.
+
+Aufgrund dieser Berechnungen mag jemand anders gerne Frauen-, Migrationshintergrundsquoten usw. auswerten. Die Ergebnisse würden mich interessieren. (Edit 15.6.2015: Inzwischen passiert in der Pressemitteilung von Mehr Demokratie e.V. in einer Analyse von Paul Tiefenbach [http://bremen-nds.mehr-demokratie.de/hbnds\_nachrichten.html?&no\_cache=1&tx\_ttnews%5BbackPid%5D=6832&tx\_ttnews%5Btt\_news%5D=16315&cHash=695e15e8e9d09a0a73048356108a7912](http://bremen-nds.mehr-demokratie.de/hbnds_nachrichten.html?&no_cache=1&tx_ttnews%5BbackPid%5D=6832&tx_ttnews%5Btt_news%5D=16315&cHash=695e15e8e9d09a0a73048356108a7912) .)
+
+# Fazit: Alles nach Personenstimmen ist am einfachsten
+
+Ich habe noch keine abschließende Einschätzung welche weiteren Paradoxien diese Modifikationen beinhalten. Das Personenstimmenparadox kann in den Modellen 0 und 1 auftreten. Derzeitg wäre wohl Modell 4 die einfachste und transparenteste Lösung. Meine derzeitigen Überlegungen sind:
+
+- In Modellen 1-3 sehe ich keinen wirklichen Zugewinn an Transparenz im Vergleich zu Modell 0.
+- In den Modellen 1 und 2 (Personenrangliste vor Liste) sehe ich einen starken Verlust des Wertes der Personenstimme für den sich die Bürger ja eindeutig per Volksbegehren entschieden haben. Personenstimmen werden stark genutzt. Die Nutzung ist angestiegen. Diese Modelle würden die Macht über das Personal der Parlamentszusammensetzung wieder deutlich zurück in die Parteien verlagern. Modell 5 sehe ich aus diesen Gründen nicht wirklich als realistische Option. Das Personenstimmenparadox ist nicht so schwerwiegend oder unlösbar, als dass auf den per Volksbegehren erreichten Grundsatz, der Verknüpfung der Verhältniswahl mit einer Personenwahl verzichtet werden könnte.
+- Die Bevorzugung von (alten) Männern durch die Personenstimmen der Wählen scheint vor allem bei Wählern der SPD aufzutreten. Dazu habe ich noch einen nicht statistisch quantifizierten Eindruck von meiner Tätigkeit als Wahlhelfer: Es gibt einige Wahlzettel auf denen alle fünf Stimmen auf  5 verschiedene Personen von mittleren und hinteren Listenplätzen vergeben wurden. Diese Personen sind aber fast immer alle bei der gleichen Liste. Ich glaube da wählen Leute, die die Personen, in der Partei alle gut kennen und spezielle Leute fördern wollen. Dies scheint Männern insbesondere in der SPD intern etwas besser zu gelingen.
+- Ein kaum betonter Aspekt in der Debatte ist, dass Personenstimmen ja auch Stimmen für die Liste sind, die die Liste ja vielleicht sonst gar nicht bekommen hätte. Das ist zumindest bei meiner Wahlentscheidung der Fall. D.h. Thomas von Bruchs (CDU) hat jetzt zwar ziemlich Pech gehabt und seine Wähler hätten tatsächlich taktisch besser die Liste CDU statt ihn gewählt, aber wer weiß ob seine Wähler überhaupt die CDU ohne ihn Wählen wollten? Durch Personenstimmen wird ein Kandidat für die Parteien interessanter.
+
+# Besser das Schweizer Wahlsystem ohne Kreuze?
+
+Ich meine, dass Bremer Wahlsystem sollte in die Richtung des Wahlsystem zum Schweizer Nationalrat weiter entwickelt werden. Damit könnte man mehrere Probleme und Interessen auf einmal befriedigen. Im Schweizer Wahlsystem hat man soviele Stimmen wie Leute die gewählt werden (also 68 für den Wahlbezirk Bremen, 15 für den Wahlbezirk Bremerhaven). **Man macht aber keine Kreuze!** Stattdessen hat man alle Listen (in Bremen ca. 10 bis 11) vorliegen und sucht sich eine aus. Wenn man es einfach macht, gibt man sie einfach ab und wählt damit jede Person auf der Liste genau einmal (und die Liste analog zum Bremer Wahlsystem 68mal). Alles ganz genau wie früher. Wer mehr will verändert den Wahlzettel. Man kann Kandidaten durchstreichen und dann die Nummern von anderen Kandidaten (auch von anderen Listen = panaschieren) eintragen. Dabei darf man auch kummulieren (also eine Person nochmal eintragen) aber nur einmal. Man kann also nicht 68 Stimmen einer Person geben. Auch trotz der erstmal gigantisch und aufwendig klingenden Zahl von 68 Stimmen für den Wahlbezirk Bremen ergeben sich dadurch viele Vorteile:
+
+- Durch die einfache Abgabe der Listen und die Beschränkung auf maximal zwei Stimmen pro Kandidaten wird der Spitzenkandidateneffekt (der das Personenstimmenparadox erst wirksam macht) deutlich abgemildert und die Bedeutung der Liste gestärkt.
+- Der Wähler kann seinen Willen noch deutlich genauer ausdrücken und zum Beispiel seine 68 Abgeordneten aussuchen. **Mir reichen die fünf Stimmen zum Beispiel überhaupt nicht aus, schließlich habe ich zu vielen Kandidaten eine Meinung, ob sie kompetent im Parlament arbeiten können und gute Entscheidungen für Bremen treffen werden!** Das schöne: Keiner muss sich 68 Leute aussuchen oder 68 Kreuze machen. Jeder kann das nach seinem Kenntnisstand und Wunsch machen und zum Beispiel nur 2-3 andere auf der Liste seiner präferierten Partei eintragen.
+- Trotz der 68 Stimmen sollte das Auszählen immernoch deutlich einfacher sein als jetzt. Man hat dann pro Wahlzettel nur eine Liste abzuarbeiten und muss nicht ein ganzes Heft zweimal durchblättern. Da viele Listen unverändert sein werden, geht es viel schneller, denn ein Heft mit 5 Kreuzen bei Liste SPD muss ja trotzdem einmal komplett durchgeblättert werden, bevor es gezählt werden kann. Selbst 68 selbstgeschriebene Stimmen braucht man als Wahlhelfer einfach nur von der Liste in den Auswertungsrechner abtippen ohne fünfmal das Heft durchzublättern auf der Suche nach einem möglichen fünften Kreuz ...
+
+**Zusammengefasst:** Es ginge dann wieder einfacher zu wählen, man hat gleichzeitig mehr Wahlfreiheit, der Wert der Listen wird gestärkt (durch weniger kummulieren und mehr Stimmen) und das Auszählen sollte sich auch noch beschleunigen.
+
+# Weitere Alternative: Maximal 2 Kreuze pro Kandidat
+
+Wenn unbedingt Kreuze gemacht werden sollen (und die Wahlhelfer weiter "gequält" werden) böte zur Vereinfachung an, für alle Kandidaten nur noch zwei Ankreuzmöglichkeiten zur Verfügung zu stellen. Das sollte einerseits bewirken, dass mehr Spitzenkandidatenstimmen wieder zu den Listen wandern. Außerdem wird es dann nicht mehr so einfach mit wenigen Wählern, die alle fünf Kreuze machen, viele Personenstimmen zu holen. Das Heft wird auch gleich deutlich übersichtlicher. Es könnte auch den Effekt haben, dass die Wählenden noch etwas mehr Gedanken machen, welche Personen die Stimmen bekommen sollen, weil man dann nicht mehr stumpf fünf Stimmen an den Spitzenkandidaten geben kann.
+
+Die Listenstimmen könnte man auch in diesem Fall abschaffen (jede Personenstimme bleibt ja auch immer eine Stimme für die Liste). Man könnte sie aber auch beibehalten und für die Listen weiterhin fünf Ankreuzmöglichkeiten bereitstellen. Das Personenstimmenparadox sollte dann wahrscheinlich immer noch möglich sein, es wird aber wohl viel unwahrscheinlicher, dass es in der Praxis auftritt, ist es ja (laut Probst und Schröder u) wohl 2011 auch nicht. Zur Sicherheit kann man den Vorschlag der "iterativen Mandatszuteilung" (5.3 in Probst und Schröder) ins Wahlgesetz aufnehmen.

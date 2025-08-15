@@ -1,0 +1,27 @@
+---
+title: "Die Weisheit der Bremer"
+date: 2010-06-22
+categories: 
+  - "deutsch"
+  - "response-in-the-media"
+---
+
+Beim [Viertelfest 2008](http://viertelfest-bremen.de/archiv/ViertelFest_2008/index.html) in Bremen organisierte ich einen Schätzquiz zur "Weisheit der Vielen". Bei der "Haste mal 'nen Euro"-Tombola konnte man das normale Glückslos auch noch nutzen, um eine Schätzung zu folgender Frage abzugeben:
+
+> Wieviele Lose werden bei der "Haste mal 'nen Euro"-Tombola insgesamt verkauft?
+
+![Weisheit der Bremer](images/weisheitderbremer.png) <!--more » Weiter lesen ...--> Wer am nächsten am richtigen Ergebnis war konnte, neben der Ehre der beste Bremer Schätzer zu sein, Freikarten für den Zirkus gewinnen. Nachempfunden ist dieser Schätzquiz dem Ochsen-Gewicht-Schätz-Wettbewerb der westenglische Nutztiermesse von 1906 deren Daten [Francis Galton](http://de.wikipedia.org/wiki/Francis_Galton) 1907 in seinem Artikel [Vox populi](http://dx.doi.org/10.1038/075450a0) (nature, 75, 7, March 7) auswertete. Damals war der [Median](http://de.wikipedia.org/wiki/Median) aller 787 Schätzungen zum Gewicht eines Ochsen 1207 [lb.](http://en.wikipedia.org/wiki/Pound_%28mass%29) und sein echtes Gewicht 1198 lb. Auf dem Viertelfest lag der Median von 1226 Schätzungen bei 9843 und es wurden 10788 Lose verkauft. Immerhin 96 Personen (7,8%) schätzen besser als das Kollektiv. Der Experte (Leiter der Bremer Bürgerpark-Tombola) war weit abgeschlagen, allerdings nicht so weit wie der klassische Durchschnitt aller Schätzungen. Damit sind wir bei einem interessanten Thema welches ein bisschen über die simple "Weisheit der Massen"-Geschichte hinausgeht:
+
+Im Gegensatz zum Ochsen-Gewicht-Schätzwettbewerb waren die Schätzung beim Viertelfest breiter gestreut. In Galtons Stichprobe schätzten 5% der Leute unter 1074 lb. (5%-Quantil) und 5% über 1293 lb. (95%-Quantil). Bei der Anzahl der Lose schätzten 5% der Leute unter 1203 Lose (5%-Quantil) und 5% über 99910 Lose (95%-Quantil). Insbesondere schätzten einige Leute noch deutlich höher, was zu dem sehr schlechten Mittelwert ([arithmetisches Mittel](http://de.wikipedia.org/wiki/Arithmetisches_Mittel)) von 53164 führt. Damit haben wir ein gutes Beispiel dafür, dass der Median ein besseres Aggregationsmaß ist als das arithmetische Mittel, weil es [robust](http://de.wikipedia.org/wiki/Robuste_Sch%C3%A4tzverfahren) ist gegen einzelne Extremmeinungen. Das hat Galton auch 1907 in [One vote, one value](http://dx.doi.org/10.1038/075414a0) (nature, 75, 414, Februar 28) schon geschrieben und den Median als "demokratisches" Aggregtionsmaß vorgeschlagen. Das ist auch argumentativ korrekt, nur ist es dummerweise in Galtons Stichprobe anders, wie [Reginald Hawthorn Hooker](http://en.wikipedia.org/wiki/Reginald_Hawthorn_Hooker) gleich in [Mean or Median](http://dx.doi.org/10.1038/075487a0) (nature, 75, 418, March 21) geantwortet hat. Er hatte aus Galtons Quantil-Daten ein arithmetisches Mittel von 1196 lb. geschätzt. Darauf gab Galton in einem [Letter](http://dx.doi.org/10.1038/075509f0) (nature 75, 508-509, March 28) zu, dass es korrekt sogar 1197 lb. seien und das arithmetische Mittel weiche damit sogar nur um 1 Pfund vom richtigen Wert ab im Gegensatz zu 9 Pfund beim Median. Unser Experiment vom Viertelfest mit den breiter gestreuten Daten gibt nun allerdings wieder Galton recht und zwar deutlich: Der Median ist gut, das arithmetische Mittel 5mal zu hoch.
+
+Ist das jetzt alles Zufall gewesen? Meine vage Hypothese dazu ist folgende: Der Median ist für die meisten Stichproben wohl die sicherere Variante, weil er tatsächlich robust gegen extrem falsche Einzelschätzungen ist. Viele Stichproben zu Schätzfragen sind nicht normal verteilt, andernfalls könnte man sich die Diskussion sparen, da Median und arithmetisches Mittel dann gleich wären. Die Verteilung der Antworten zu einer Frage, die prinzipiell nur positive Zahlen zulässt ist z.B. typischerweise eher [log-normal](http://de.wikipedia.org/wiki/Logarithmische_Normalverteilung) verteilt, also [rechtsschief](http://de.wikipedia.org/wiki/Schiefe_%28Statistik%29), wie z.B. bei der Anzahl der Lose. Galtons Stichprobe ist dagegen interessanterweise linksschief, was er sich auch nicht so recht erklären kann. In beiden Fällen trifft übrigens folgendes zu: Der Median ist recht nah am richtigen Wert, und der richtige Wert ist zwischen Median und arithmetischem Mittel. Das heisst, man muss den Median in Richtung Mittelwert anpassen um noch korrekter zu werden.
+
+PS: Auf die Idee, sehr viele Lose zu kaufen und dann sehr hoch zu schätzen und dadurch sicher zu gewinnen, ist irgendwie keiner gekommen. Dabei habe ich extra diesen interessanten Feedback-Loop zwischen richtiger Antwort (wieviel verkaufte Lose) und Antwort-Aktivität (ein Los kaufen, d.h. richtiger Wert +1) eingebaut. Um ihn wirksam zu machen, hätte man wohl höhere Geldpreise gebraucht...
+
+PPS: Die Kommunikationsfrequenz damals bei Galton (alles in 30 Tagen!) erinnert schon ziemlich an Blogs.
+
+PPPS: Hier sind die [Daten](https://docs.google.com/spreadsheets/d/1HiYhUrYrsbeybJ10mwsae_hQCawZlUQFOOZzcugXzgA/edit?usp=sharing) vom Viertelfest, für alle die mal selbst was rechnen wollen.
+
+PPPPS: Ich danke Susanne Claasen und ihrem Tombola-Team für die Datensammlung!
+
+PPPPPS: Einen [scienceblog-Beitrag](http://www.scienceblogs.de/neurons/2008/08/weisheit-der-bremer-siegt-uber-experten.php) gibt es auch.
