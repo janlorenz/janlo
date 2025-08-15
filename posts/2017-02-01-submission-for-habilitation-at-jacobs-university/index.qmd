@@ -10,7 +10,7 @@ I submitted for habilitation in **Computational Social Science** at Jacobs Unive
 
 [Systemic Effects in Models of Opinion Dynamics, Societal Growth, and the Wisdom of Crowds](https://drive.google.com/open?id=0B6RUj58gkTakUXJOV3NXXzZqTGs)
 
-It is an 88 page booklet presenting the results of twelve published papers focusing on systemic effects in opinion dynamics and societal growth and on the wisdom of crowd phenomenon in group guesstimation games. Read a short summary with a focus on the new results here. <!--more-->
+It is an 88 page umbrella booklet presenting the results of twelve published papers focusing on systemic effects in opinion dynamics and societal growth and on the wisdom of crowd phenomenon in group guesstimation games. Read a short summary with a focus on the new results here. <!--more-->
 
 ## Chapter 1: Introduction
 
