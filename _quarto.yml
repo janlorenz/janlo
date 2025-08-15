@@ -11,6 +11,7 @@ website:
     left:
       - href: index.qmd
         text: About
+      - cv.qmd
       - publications.qmd
       - teaching.qmd
       - scientific-events.qmd
