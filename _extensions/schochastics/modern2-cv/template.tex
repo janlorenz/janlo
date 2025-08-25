@@ -301,16 +301,16 @@ $endif$
 	\settowidth{\barw}{\textbf{\LARGE #1}}
 	\cvtext{
 		\textbf{\LARGE{\textcolor{darkcol}{#1}}}\\[-4pt]
-		\textcolor{accentcol}{ \rule{\barw}{1.5pt} } \\
+		\textcolor{accentcol}{ \rule{\barw}{1.5pt} } \\[-6pt]
 	}
 }
 
 \newcommand{\cvsubsection}[1] {
-	\vspace{14pt}
-	\settowidth{\barw}{\textbf{\Large #1}}
+	\vspace{10pt}
+	\settowidth{\barw}{\textbf{\large #1}}
 	\cvtext{
-		\textbf{\Large{\textcolor{darkcol}{#1}}}\\[-4pt]
-		\textcolor{accentcol}{ \rule{\barw}{1.5pt} } \\
+		\textbf{{\large\textcolor{darkcol}{#1}}}\\[-6pt]
+		\textcolor{accentcol}{ \rule{\barw}{1pt} } \\[-11pt]
 	}
 }
 
@@ -373,13 +373,13 @@ $endif$
 		\begin{tabular*}{1\mpwidth}{p{0.7\mpwidth}  r}
 	 		\textcolor{black}{\textbf{#2}} & \colorbox{accentcol}{\makebox[0.32\mpwidth]{\textcolor{white}{\textbf{#1}}}} \\
 			\textcolor{maincol}{#3} & \\
-		\end{tabular*}\\[2pt]
+		\end{tabular*}\\[0pt]
 	
 		\ifthenelse{\isempty{#4}}{}{
 			\cvtext{#4}\\
 		}
 	}
-	\vspace{10pt}
+	\vspace{8pt}
 }
 
 \newcommand{\cvproj}[3] {
@@ -535,6 +535,7 @@ $endif$
 		$biblio.tex()$
 	\end{rightcolumn}
 \end{paracol}
+
 
 
 \end{document}
