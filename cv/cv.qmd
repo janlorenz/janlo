@@ -6,7 +6,7 @@ author: Jan Lorenz
 date: today
 #cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
 cvcolor: 
-  main: "3c3c3c" ##d1270e ##B83B5E
+  main: "737373" ##d1270e ##B83B5E
   accent: "D1270E" ##
 jobtitle: Assistant Professor of Social Data Science at Constructor University 
 sidebar:
@@ -20,6 +20,9 @@ sidebar:
         - icon: orcid
           text: "ORCID: 0000-0002-5547-7848"
           href: https://orcid.org/0000-0002-5547-7848
+        - icon: google-scholar
+          text: "Google Scholar"
+          href: https://scholar.google.com/citations?user=NxoGpCgAAAAJ&hl=en
         - icon: building-columns
           text: "Constructor University, Bremen"
           href: https://www.constructor.university
@@ -55,19 +58,19 @@ sidebar:
         - text: R
           exp: 
             text: "10+ yrs."
-            num: 0.9
+            num: 1
         - text: NetLogo
           exp: 
             text: "10+ yrs."
-            num: 0.9
+            num: 1
+        - text: Quarto
+          exp: 
+            text: "3 yrs."
+            num: 0.8
         - text: Python
           exp: 
             text: "2 yrs."
             num: 0.1
-        - text: Quarto
-          exp: 
-            text: "3 yrs."
-            num: 0.5
     - name: Skills
       items:
         - text: Data Analysis
@@ -81,7 +84,11 @@ sidebar:
         - text: Applied Mathematics
           exp: 
             text: "15+ yrs."
-            num: 1
+            num: 1        
+        - text: Complex Systems
+          exp: 
+            text: "15+ yrs."
+            num: 0.8
         - text: Network Analysis
           exp: 
             text: "10+ yrs."
@@ -112,18 +119,14 @@ sidebar:
         - Git
         - Terminal
         - Ubuntu Linux
-    - name: Education
+    - name: Leisure
       items:
-        - text: "Ph.D. Computer Science"
-          inst: "University of Konstanz"
-          time: "09/2012 - 11/2015"
-          details: "Thesis: Positional Approach for Network Centrality"
-        - text: "Businessmathematics (Dipl.)"
-          inst: "Karlsruhe Institute of Technology"
-          time: "10/2006 - 07/2012"
-          details: "Thesis: Modularity Maximization"
+        - "Juggling"
+        - "Board Games"
+        - "Crochet"
+        - "Hikes from Station to Station"
+        - "Creative Crafts"
 execute: 
-  freeze: true
   echo: false
 suppress-bibliography: true 
 ---
@@ -158,7 +161,15 @@ cvproj <- function(tbl,what,role,items){
 
 # Summary
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+I am a *social data scientist* and *computational social scientist* with a background in complex socio-economic systems and applied mathematics. 
+
+\medskip
+
+I build and use *agent-based models* to study how individual behaviors and interactions lead to emergent social patterns, like polarization, radicalization, filter bubbles, spatial segregation, using behavioral and institutional theories from psychology, sociology, political science and economics. I make formal model from verbal theories looking for systemic mechanisms which go beyond the obvious. My goal is to bring agent-based models closer to data-driven analysis and classical variable-based models in the social sciences. To that end, I also do purely data-driven research with a focus on measuring macroscopic social phenomena. 
+
+\medskip
+
+Further on, I am interested in the voting systems (theory and application), holisitic understanding of the adaptation of democratic systems, collective intelligence, and mathematical concepts underlying machine learning and artificial intelligence. 
 
 # Academic Positions
 
@@ -172,16 +183,16 @@ Besides my first two and a half year postdoc at ETH Zurich, I have been working 
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~details,
-    "Assistant Professor of Social Data Science", "School of Business, Social and Decision Sciences\nConstructor University Bremen gGmbH (former Jacobs University)", "2022-04 - 2028-03", "Study Program Co-Coordinator for \\textit{MSc. in Data Science for Society and Business}",
+    "Assistant Professor of Social Data Science", "School of Business, Social and Decision Sciences\nConstructor University Bremen gGmbH (former Jacobs University)", "2022-04 - 2028-03", "",
     "Postdoctoral Fellow", "Department of Psychology and Methods\nJacobs University Bremen gGmbH", "2019-04 - 2021-12",
-    "Position in the DFG funded research project \\href{https://gepris.dfg.de/gepris/projekt/396901899}{ToRealSim} (PI: Klaus Boehnke, mainly authored by Jan Lorenz)", 
+    "Position in the DFG funded project \\href{https://gepris.dfg.de/gepris/projekt/396901899}{ToRealSim}. Supervisor: Klaus Boehnke", 
     "Research Associate", "Complex Systems Lab, Institute for Theoretical Physics\nUniversität Bremen", "2019-01 - 2019-09", "Supervisor: Stefan Bornholdt",
     "Postdoctoral Researcher (80\\%)", "Department of Computational Social Science\nGESIS Leibniz-Institut fur Sozialwissenschaften, Köln", "2018-03 - 2018-09", "Supervisor: Claudia Wagner",
-    "Postdoctoral Fellow ", "Department of Psychology and Methods\nJacobs University Bremen gGmbH", "2014-10 - 2017-09", "PI (eigene Stelle) in the DFG funded research project \\href{https://gepris.dfg.de/gepris/projekt/265108307?language=en}{Opinion Dynamics and Collective Decisions: Procedures, Behavior, and Systems Dynamics}",
+    "Postdoctoral Fellow ", "Department of Psychology and Methods\nJacobs University Bremen gGmbH", "2014-10 - 2017-09", "DFG (eigene Stelle) funded research project \\href{https://gepris.dfg.de/gepris/projekt/265108307?language=en}{Opinion Dynamics and Collective Decisions: Procedures, Behavior, and Systems Dynamics}",
     "Lecturer (50\\%)", "Institut für Sozialwissenschaften\nCarl von Ossietzky Universität Oldenburg", "2014-04 - 2014-09", "Political Science Seminars, Supervisor: Markus Tepe",
-    "Postdoctoral Fellow ", "School of Humanities and Social Sciences", "2012-10 - 2014-03", "Working on the project \\textit{Social Cohesion Radar} funded by the Bertelsmann Stiftung (PI: Klaus Boehnke)",
-    "Research Associate (50-75\\%)", "Institut für Sozialwissenschaften\nCarl von Ossietzky Universität Oldenburg", "2010-01 - 2012-09", "Research and Manager of Experimental Lab, Supervisor: Bernhard Kittel",
-    "Postdoc (50-75\\%)", "Chair of Systems Design\nETH Zurich", "2007-04 - 2009-10", "Supervisor: Frank Schweitzer"
+    "Postdoctoral Fellow ", "School of Humanities and Social Sciences", "2012-10 - 2014-03", "Working on the project \\textit{Social Cohesion Radar} funded by the Bertelsmann Stiftung. Supervsior: Klaus Boehnke",
+    "Research Associate (50-75\\%)", "Institut für Sozialwissenschaften\nCarl von Ossietzky Universität Oldenburg", "2010-01 - 2012-09", "Researcher and Manager of Experimental Lab. Supervisor: Bernhard Kittel",
+    "Postdoc", "Chair of Systems Design\nETH Zurich", "2007-04 - 2009-10", "Supervisor: Frank Schweitzer"
 ) |>
     cvevents(when = "dates", what = "role", where = "institution", descr = "details")
 ```
@@ -193,17 +204,203 @@ tibble::tribble(
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~details,
-    "Habilitation", "Computational Social Science\nJacobs University Bremen", "Finalized 2017-10", "",
+    "Habilitation", "Computational Social Science\nJacobs University Bremen", "Finalized 2017-10", "\\href{https://drive.google.com/open?id=0B6RUj58gkTakUXJOV3NXXzZqTGs}{Umbrella Booklet: \\textit{Systemic Effects in Models of Opinion Dynamics, Societal Growth, and the Wisdom of Crowds}}",
     "Dr. rer. nat. Mathematics", "Universität Bremen\nSupervisor: Ulrich Krause, Rainer Hegselmann", "2004-01 - 2007-03",
-    "", 
-    "Diplom Mathematiker", "Universität Bremen", "Finalized 2003-03", ""
+    "\\href{http://nbn-resolving.de/urn:nbn:de:gbv:46-diss000106688}{Dissertation: \\textit{Repeated Averaging and Bounded Confidence in Continuous Opinion Dynamics}}", 
+    "Diplom Mathematiker", "Universität Bremen", "Finalized 2003-03", "\\href{http://elib.suub.uni-bremen.de/dipl/docs/00000056.pdf}{Thesis: \\textit{Mehrdimensionale Meinungsdynamik bei wechselndem Vertrauen}}"
 ) |>
     cvevents(when = "dates", what = "role", where = "institution", descr = "details")
 ```
 
+
+
 # Grants
 
+```{r}
+#| label: grants
+#| output: asis
+tibble::tribble(
+    ~role, ~institution, ~dates, ~details,
+   "Principle Investigator", "European Commission (Horizon Europe)",
+   "2025-01 - 2027-12", "European City Squared: Computational Social Science Simulation for Democracy\nOne of 17 partners in a 3 million Euro project with a postdoc position at CU." ,
+   "Co Applicant (Main Applicant Hilke Brockmann)", "Volkswagen Stiftung", "2024", "Wealth Data Science Summer/Winter School and Research Incubator (65kEUR)",
+   "Principle Investigator", "DFG - German Research Foundation",
+   "2021 - 2026", "Research Training Group: Social Dynamics of the Self\n One of 9 PIs at Bremen International Graduate School for Social Sciences\nOne of 9 PIs, Speaker: Ulrich Kühnen",
+   "Main author with PI Klaus Boehnke)", "DFG - German Research Foundation (Open Research Area)", "2019-09 - 2022-08", "ToRealSim: Towards Realistic Simulations of Social Processes\nJoint project with partners in NL, FR, and UK, one postdoc and one doctoral position at Jacobs University." ,
+   "Main Applicant", "Volkswagen Stiftung", "2018 - 2023", "3 Summer Schools in Computational Social Science of Conflicts, Migration and Social Cohesion (240kEUR)",
+   "Principle Investigator", "DFG - German Research Foundation", "2014-10 - 2017-09", "Opinion Dynamics and Collective Decisions: Procedures, Behavior, and Systems Dynamics. Own position plus one postdoc at Jacobs University", 
+   "Full Stipend for Doctoral Studies", "Friederich Ebert Stiftung", "2004-01 - 2006-12", ""
+) |>
+    cvevents(when = "dates", what = "role", where = "institution", descr = "details")
+```
 
+
+# Ressearch Achievements
+
+The full list of publications can be found on Google Scholar and ORCID.
+
+Link: \faIcon{google-scholar} [*Google Scholar* profile by recent *years*](https://scholar.google.com/citations?hl=en&user=NxoGpCgAAAAJ&view_op=list_works&sortby=pubdate) \faIcon{arrow-down}
+
+Link: \faIcon{google-scholar} [*Google Scholar* profile by citation *impact*](https://scholar.google.com/citations?user=NxoGpCgAAAAJ&hl=en) \faIcon{star}
+
+\medskip
+
+Here I provide a selection of my publications and their contribution by topic:
+
+\cvsubsection{Opinion Dynamics} 
+
+- @LorenzEtAl2021IndividualAttitudeChange
+  \textcolor{maincol}{Holostic model of different attitude change mechanisms and their societal implications derived from psychological theory published in a flagship theory journal in psychology.}
+- @GeschkeEtAl2019TriplefilterBubbleUsing
+  \textcolor{maincol}{Integrates attitude-laden news items of which individuals compose worldviews. Demonstrates a subtle mechansis how the existence of social media resposting creates cognitive filter bubbles in society. Highly recognized.}
+- @FlacheEtAl2017ModelsSocialInfluence  
+  \textcolor{maincol}{Has become a key introductory paper on opinion dynamics.}
+- @GroeberEtAl2014DissonanceMinimizationMicrofoundation
+  \textcolor{maincol}{Formal model of opinion dynamics derived from cognitive dissonance theory.}
+- @ShinLorenz2010TippingDiffusivityInformation
+  \textcolor{maincol}{Shows how just the increasing number of social connections can tip a society from a consensual state into a bipolarized one in a theoretical model. Written before the dominance of social media became real.}
+
+**Empirical Opinion Research**
+
+- @GestefeldEtAl2022DecomposingAttitudeDistributions
+  \textcolor{maincol}{Empirical exploration of opinion distributions over different countries, topics, and time using several attitude items from the European Social Survey.}
+- @GestefeldLorenz2023CalibratingOpinionDynamics
+  \textcolor{maincol}{A first attempt on how to calibrate and validate opinion dynamics models with empirical data, including panel data of individuals.}
+- @Lorenz2009UniversalityMovieRating
+  \textcolor{maincol}{Analysis of self-scraped movie rating histograms.}
+
+\pagebreak
+
+**Bounded Confidence Model**
+
+\medskip
+
+The beginning of my research was centered around the bounded confidence model. I think it still shows an underappreciated relevant mechanism how a certain form of polarization emerges just through indiviudals assimilating towards others. 
+
+- @Lorenz2007ContinuousOpinionDynamics
+  \textcolor{maincol}{Survey showing density-based formalism.}
+- @Kurahashi-NakamuraEtAl2016RobustClusteringGeneralized
+  \textcolor{maincol}{How only two types of realistic sources of noise together make the model's macroscopic outcome also more realistically looking.}
+- @LorenzUrbig2007PowerEnforcePrevent
+- @Lorenz2010HeterogeneousBoundsConfidence
+  \textcolor{maincol}{How open- and closed-minded agents together in a society create new emergent phenomena like drifting opinion clusters.}
+- @Lorenz2008FosteringConsensusMultidimensional
+  \textcolor{maincol}{How more unrelated opinion dimensions make consensus harder to achieve, while opinion dimensions connected through budget constraints make it reachable with less open-mindedness.}
+- @Lorenz2006ConsensusStrikesBack
+  \textcolor{maincol}{Shows a still discussed surprising phenomenon of the basic bounded confidence model.}
+
+\cvsubsection{Segregation}
+
+- @ZuccottiEtAl2023ExploringDynamicsNeighbourhood
+  \textcolor{maincol}{Implements Schelling's segregation model in real-world demography and geography and models individuals relocation decisions as classical discrete choice models. Makes the classic agent-based model better relatable to real-world data and variable-based analysis many other segregation research uses.}
+- @PaolilloLorenz2018HowDifferentHomophily
+  \textcolor{maincol}{Introduces the new type agent to the model: Agents who do not care about the color of their neighbor, but do care about not living with too many other who do prefer to live only among similar colored ones. Interesting new phenomena emerge.}
+
+\cvsubsection{Economic Experiments on Redistribution}
+
+A series of lab experiments on democratic redistribution in groups of five individuals and how the framing of the decision situation and ineffciency of the redistribution mechanism affect the degree of redistribution.
+
+- @TepeEtAl2021EfficiencyLossSupport
+- @PaetzelEtAl2017TransparencyDiminishesFramingeffects
+- @LorenzEtAl2017JustDontCall
+
+\cvsubsection{Experiments on the Wisdom of Crowds}
+
+The wisdom of crowd effect is the phenomenon that the aggregated judgment of a group of individuals is often more accurate than most individual judgments. I studied how social influence and different decision rules affect the wisdom of crowds in experimental settings using simple factual assessment tasks of numerical nature.
+
+- @LorenzEtAl2015MajoritarianDemocracyUndermines
+  \textcolor{maincol}{Shows that communication under a final majority decision illicits less wisdom of crowd than unanimous decision making or pure aggregation instead of collective decision. The reasons for the finding are still not fully understood.}
+- @LorenzEtAl2011HowSocialInfluence
+  \textcolor{maincol}{Seminal experiment showing that even mild social influence undermines the wisdom of crowds by creating a collective tunnel vision. Highly recognized.}
+- @Lorenz2021QuantificationCrowdWisdom
+  \textcolor{maincol}{A theoretical exploration of different definitions and quantifications of the wisdom of crowds effect.}
+
+\cvsubsection{Economic Models}
+
+- @KonigEtAl2016InnovationVsImitation
+  \textcolor{maincol}{How imitation and innovation interact in an evolutionary model of firms creating a traveling wave of the productivity distribution in line with empirical observation. Published in a flagship theoretical economics journal.}
+- @LorenzEtAl2013RedistributionSpursGrowth
+  \textcolor{maincol}{Shows that redistribution can increase growth in an agent-based macroeconomic model. All relies on an underappreciated property of muliplicative growth underlying economic and natural growth processes.}
+
+\cvsubsection{Mathematics}
+
+These are my two papers with mathemetical proofs on convergence in opinion dynamics models.
+
+- @LorenzLorenz2010ConditionsConvergenceConsensus
+- @Lorenz2005StabilizationTheoremDynamics
+
+\cvsubsection{Miscellaneous}
+
+- @AsgharpourmasoulehEtAl2020FateProtestsDynamics
+  \textcolor{maincol}{Agent-based model of protests building on the classical threshold model of Granovetter including multiple topics and different types of protest activation. The model is able to show short-lived but heavy multi topic protests wave like seen in Iran and a long-term protest changing topics like the PEGIDA protests, both seen in the late 2010 years.}
+- @LorenzEtAl2017RankOptimalWeightingHow
+  \textcolor{maincol}{Most rankings, like university ranking, rely on weighted averages of several indicators. We derive a method to find weights which bring a certain entity as much to the top as possible. We show that it can matter a lot!}
+- @Lorenz2018WieKumuliermoglichkeitPanaschieren
+  \textcolor{maincol}{Empirical analysis of cumulative voting and panachage behavior, arguing for a change in Bremen's voting system. Based on unique voting data from all ballots in Bremen.}
+
+\cvsubsection{Agent-based Modeling}
+
+Recently, I made some effort to position the use of the method of agent-based modeling and how it can be done data-driven in computational and theoretical social sciences. 
+
+- @Lorenz2025ExploringTheoryAgentbased
+- @Lorenz2021DatadrivenAgentbasedModeling
+
+
+\cvsubsection{Books}
+
+- @KeijzerEtAl2025ComputationalSocialScience
+  \textcolor{maincol}{Edited volume as the output of our summer schools and research incubators on social cohesion and the democratic debate. To appear in November 2025}
+- @DeutschmannEtAl2020ComputationalConflictResearch
+  \textcolor{maincol}{Edited volume as the output of our summer school and research incubator on conflicts.}
+- @DragolovEtAl2016SocialCohesionWestern
+  \textcolor{maincol}{Established one often used definition and multidimensional measurement concept of social cohesion.}
+
+# Service to the Scientific Community
+
+- Organization of Summer Schools and Research Incubators in Computational Social Science and Social Data Science (each 2 weeks with 40-50 participants) funded by the Volkswagen Stiftung. Link: [Summer Schools and Research Incubators](https://wedsss.janlo. de)
+    - 2024: Wealth Data Science Summer School and Research Incubator, Constructor University Bremen (together with Hilke     Brockmann, and University of Cape Town, Hybrid Lecture Program)
+    - 2023: Computational Social Science of the Democratic Debate, Constructor University Bremen, (together with Marijn K    eijzer and Bruce Edmonds)
+    - 2022: Computational Social Science of Social Cohesion, University of Groningen (together with Andreas Flache and Mi    chael Mäs)
+    - 2019: Computational Social Science of Migration, Cagliari(together with Adalbert Wilhelm and Emanuel Deutschmann)
+    - 2018: Computational Social Science of Conflicts, Jacobs University Bremen (together with Adalbert Wilhelm and Emanuel Deutschmann)
+- Organization of the "Interdisciplinary Workshop on Opinion Dynamics and Collective Decision" (one track, 40-60 participants) at Jacobs/Constructor University Bremen in 2023 (Link [ODCD2023](https://odcd.janlo.de/)) and 2017. - -
+- Scientific reviewing for several journal across many disciplines, and funding agencies, for example, DFG (German Research Foundation), the Swiss National Science Foundation (SNSF), and ESRC (Economic and Social Research Council, UK).   
+Link: [Reviewer Profile at Web of Science](https://www.webofscience.com/wos/author/record/D-1806-2010)  
+
+\pagebreak
+
+# Teaching
+
+I am Study Program Co-Coordinator for the *MSc in Data Science for Society and Business* at Constructor University. I teach courses in *Data Science Concepts*, *Computational Social Science*, *Visual Communication and Data Storytelling*, and run the *Data Science Lab* as well as supervising Captstone Projects and Master Theses in Social Data Science.
+
+\medskip
+
+In BIGSSS I taught short-term courses for doctoral students in *Mathematics in the Social Sciences*, *Agent-based Modeling*, and *Data Science with R*.
+
+\medskip
+
+Longer ago I taught a course *Math and Politics* (including interactive large groups games) at Jacobs University, and Seminars on *Collectivty and Social Emergence* and *Experimental Social Science* and Tutorials in *Introduction to Political Science* at Carl von Ossietzky Universität Oldenburg. 
+
+\medskip
+
+I taught courses at the Summer Academies of the Studienstiftung des deutschen Volkes (together with Stefan Bornholdt) on *Mechanisms of Collective Behaviour: An Interdisciplinary Exploration* (2024, Oxford) and *Elections, Fashion, Herd Behavior: The Mechanisms of Collective Decisions* (2018, Nice, France).
+
+
+# Memberships 
+
+Mehr Demokratie e.V., Wikimedia Deutschland e.V., Deutsche Mathematiker-Vereinigung (DMV)
+
+# Awards
+
+<!-- Under the headline scientific recognition, it could be extended by invitations -->
+
+- Prize for Applied Research in Complexity Science (3000 EUR), Best Poster, Workshop "Potentials of Complexity Science for Business, Governments, and the Media 2006", Aug 3–5, 2006, Budapest, Hungary
+- Best student paper (700 EUR) "2nd International Meeting: Connectionist Approaches in Economics and
+Management - ASCEG 2005", 17–18 Nov, 2005, Aix-en-Provence, France, 2nd prize
+
+
+
+<!-- 
 ```{r}
 #| label: proj
 #| output: asis
@@ -224,22 +421,4 @@ tibble::tribble(
     )
 ) |>
     cvproj(what = "what", role = "role", items = "items")
-```
-
-# Memberships
-
-# Awards
-
-# Teaching
-
-# Scientific Services
-
-
-# Publications
-
-\faIcon{google-scholar} [*Google Scholar* profile by recent *years*](https://scholar.google.com/citations?hl=en&user=NxoGpCgAAAAJ&view_op=list_works&sortby=pubdate) \faIcon{arrow-down}
-
-\faIcon{google-scholar} [*Google Scholar* profile by citation *impact*](https://scholar.google.com/citations?user=NxoGpCgAAAAJ&hl=en) \faIcon{star}
-
-1. @GestefeldEtAl2022DecomposingAttitudeDistributions
-
+``` -->

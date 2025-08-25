@@ -2,6 +2,8 @@
 title: "Publications"
 ---
 
+{{< include _publications.qmd >}}
+
 See my   
 [Google Scholar profile by recent years](https://scholar.google.com/citations?hl=en&user=NxoGpCgAAAAJ&view_op=list_works&sortby=pubdate) or   
 [Google Scholar profile by impact](https://scholar.google.com/citations?user=NxoGpCgAAAAJ&hl=en).
@@ -72,7 +74,7 @@ See my
 
 ## Theses
 
-1. **Habilitation** (Computational Social Science): @Lorenz2017SystemicEffectsModels   
+1. **Habilitation** (Computational Social Science): @Lorenz2017SystemicEffectsModels
 2. **Dissertation** (Mathematics): @Lorenz2007RepeatedAveragingBounded
 3. **Diploma thesis** (Mathematics): @Lorenz2003MehrdimensionaleMeinungsdynamikBei  
 
